@@ -26,6 +26,7 @@
 		19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */; };
 		19DDD44E2A07E69700FB5535 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44D2A07E69700FB5535 /* ProfileViewController.swift */; };
 		19DDD4502A07E92C00FB5535 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44F2A07E92C00FB5535 /* DetailViewController.swift */; };
+		19DDD4522A07EF2000FB5535 /* GameDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4512A07EF2000FB5535 /* GameDetailResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		19DDD44D2A07E69700FB5535 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		19DDD44F2A07E92C00FB5535 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		19DDD4512A07EF2000FB5535 /* GameDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				19DDD4462A075E0A00FB5535 /* GameCatalogResponse.swift */,
+				19DDD4512A07EF2000FB5535 /* GameDetailResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				19DDD44E2A07E69700FB5535 /* ProfileViewController.swift in Sources */,
 				19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */,
 				19DDD4002A0756C900FB5535 /* AppDelegate.swift in Sources */,
+				19DDD4522A07EF2000FB5535 /* GameDetailResponse.swift in Sources */,
 				19DDD4022A0756C900FB5535 /* SceneDelegate.swift in Sources */,
 				19DDD4452A075E0200FB5535 /* GameCatalogRemoteDataSource.swift in Sources */,
 			);
