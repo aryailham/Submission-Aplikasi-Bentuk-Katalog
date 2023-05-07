@@ -24,6 +24,8 @@
 		19DDD4472A075E0A00FB5535 /* GameCatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4462A075E0A00FB5535 /* GameCatalogResponse.swift */; };
 		19DDD4492A07D11F00FB5535 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4482A07D11F00FB5535 /* UIViewController+Extensions.swift */; };
 		19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */; };
+		19DDD44E2A07E69700FB5535 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44D2A07E69700FB5535 /* ProfileViewController.swift */; };
+		19DDD4502A07E92C00FB5535 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44F2A07E92C00FB5535 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		19DDD4462A075E0A00FB5535 /* GameCatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogResponse.swift; sourceTree = "<group>"; };
 		19DDD4482A07D11F00FB5535 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		19DDD44D2A07E69700FB5535 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		19DDD44F2A07E92C00FB5535 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +164,6 @@
 				19DDD4332A07570000FB5535 /* Profile */,
 				19DDD4322A0756F600FB5535 /* Game Detail */,
 				19DDD4312A0756E800FB5535 /* Game Catalog */,
-				19DDD4032A0756C900FB5535 /* ViewController.swift */,
 				19DDD4052A0756C900FB5535 /* Main.storyboard */,
 			);
 			path = Module;
@@ -169,6 +172,7 @@
 		19DDD4312A0756E800FB5535 /* Game Catalog */ = {
 			isa = PBXGroup;
 			children = (
+				19DDD4032A0756C900FB5535 /* ViewController.swift */,
 			);
 			path = "Game Catalog";
 			sourceTree = "<group>";
@@ -176,6 +180,7 @@
 		19DDD4322A0756F600FB5535 /* Game Detail */ = {
 			isa = PBXGroup;
 			children = (
+				19DDD44F2A07E92C00FB5535 /* DetailViewController.swift */,
 			);
 			path = "Game Detail";
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 		19DDD4332A07570000FB5535 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				19DDD44D2A07E69700FB5535 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -398,9 +404,11 @@
 				19DDD4472A075E0A00FB5535 /* GameCatalogResponse.swift in Sources */,
 				19DDD4042A0756C900FB5535 /* ViewController.swift in Sources */,
 				19DDD4412A075AF700FB5535 /* ColorHelper.swift in Sources */,
+				19DDD4502A07E92C00FB5535 /* DetailViewController.swift in Sources */,
 				19DDD43A2A0757F000FB5535 /* GameCatalogTableViewCell.swift in Sources */,
 				19DDD4492A07D11F00FB5535 /* UIViewController+Extensions.swift in Sources */,
 				19DDD43E2A075A3B00FB5535 /* UIView+Extensions.swift in Sources */,
+				19DDD44E2A07E69700FB5535 /* ProfileViewController.swift in Sources */,
 				19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */,
 				19DDD4002A0756C900FB5535 /* AppDelegate.swift in Sources */,
 				19DDD4022A0756C900FB5535 /* SceneDelegate.swift in Sources */,
