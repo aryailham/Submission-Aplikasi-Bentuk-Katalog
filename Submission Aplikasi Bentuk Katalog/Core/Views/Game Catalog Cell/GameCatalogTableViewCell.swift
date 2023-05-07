@@ -33,11 +33,19 @@ class GameCatalogTableViewCell: UITableViewCell {
     private func setupView() {
         containerView.createAsCard()
     }
-
-    override func prepareForReuse() {
-        gameImage.image = nil
-        gameTitle.text = ""
-        gameReleaseDate.text = ""
-        gameRating.text = ""
+    
+    func setData(title: String, rating: Double, releaseDate: String, image: String) {
+        gameTitle.text = title
+        gameRating.text = "Rating: \(rating)"
+        gameReleaseDate.text = "Released: \(releaseDate)"
+        Task {
+//            DispatchQueue.global(qos: .userInteractive).async {
+            guard let image = try await ImageDownloader.shared.downloadImage(url: URL(string: image)!) else {return}
+                
+                DispatchQueue.main.async {
+                    self.gameImage.image = image
+                }
+//            }
+        }
     }
 }
