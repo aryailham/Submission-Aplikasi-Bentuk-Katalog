@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19DDD4002A0756C900FB5535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD3FF2A0756C900FB5535 /* AppDelegate.swift */; };
+		19DDD4022A0756C900FB5535 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4012A0756C900FB5535 /* SceneDelegate.swift */; };
+		19DDD4042A0756C900FB5535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4032A0756C900FB5535 /* ViewController.swift */; };
+		19DDD4072A0756C900FB5535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DDD4052A0756C900FB5535 /* Main.storyboard */; };
+		19DDD4092A0756CB00FB5535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DDD4082A0756CB00FB5535 /* Assets.xcassets */; };
+		19DDD40C2A0756CB00FB5535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DDD40A2A0756CB00FB5535 /* LaunchScreen.storyboard */; };
+		19DDD4172A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4162A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift */; };
+		19DDD4212A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4202A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift */; };
+		19DDD4232A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4222A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift */; };
+		19DDD43A2A0757F000FB5535 /* GameCatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4382A0757F000FB5535 /* GameCatalogTableViewCell.swift */; };
+		19DDD43B2A0757F000FB5535 /* GameCatalogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DDD4392A0757F000FB5535 /* GameCatalogTableViewCell.xib */; };
+		19DDD43E2A075A3B00FB5535 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD43D2A075A3B00FB5535 /* UIView+Extensions.swift */; };
+		19DDD4412A075AF700FB5535 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4402A075AF700FB5535 /* ColorHelper.swift */; };
+		19DDD4452A075E0200FB5535 /* GameCatalogRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4442A075E0200FB5535 /* GameCatalogRemoteDataSource.swift */; };
+		19DDD4472A075E0A00FB5535 /* GameCatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4462A075E0A00FB5535 /* GameCatalogResponse.swift */; };
+		19DDD4492A07D11F00FB5535 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4482A07D11F00FB5535 /* UIViewController+Extensions.swift */; };
+		19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19DDD4132A0756CB00FB5535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DDD3F42A0756C900FB5535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19DDD3FB2A0756C900FB5535;
+			remoteInfo = "Submission Aplikasi Bentuk Katalog";
+		};
+		19DDD41D2A0756CB00FB5535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19DDD3F42A0756C900FB5535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19DDD3FB2A0756C900FB5535;
+			remoteInfo = "Submission Aplikasi Bentuk Katalog";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19DDD3FC2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Submission Aplikasi Bentuk Katalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DDD3FF2A0756C900FB5535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19DDD4012A0756C900FB5535 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19DDD4032A0756C900FB5535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19DDD4062A0756C900FB5535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19DDD4082A0756CB00FB5535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19DDD40B2A0756CB00FB5535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19DDD40D2A0756CB00FB5535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DDD4122A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Submission Aplikasi Bentuk KatalogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DDD4162A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submission_Aplikasi_Bentuk_KatalogTests.swift; sourceTree = "<group>"; };
+		19DDD41C2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Submission Aplikasi Bentuk KatalogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19DDD4202A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submission_Aplikasi_Bentuk_KatalogUITests.swift; sourceTree = "<group>"; };
+		19DDD4222A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19DDD4382A0757F000FB5535 /* GameCatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogTableViewCell.swift; sourceTree = "<group>"; };
+		19DDD4392A0757F000FB5535 /* GameCatalogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameCatalogTableViewCell.xib; sourceTree = "<group>"; };
+		19DDD43D2A075A3B00FB5535 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		19DDD4402A075AF700FB5535 /* ColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		19DDD4442A075E0200FB5535 /* GameCatalogRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogRemoteDataSource.swift; sourceTree = "<group>"; };
+		19DDD4462A075E0A00FB5535 /* GameCatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogResponse.swift; sourceTree = "<group>"; };
+		19DDD4482A07D11F00FB5535 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19DDD3F92A0756C900FB5535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DDD40F2A0756CB00FB5535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DDD4192A0756CB00FB5535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DDD3F32A0756C900FB5535 = {
+			isa = PBXGroup;
+			children = (
+				19DDD3FE2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog */,
+				19DDD4152A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests */,
+				19DDD41F2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests */,
+				19DDD3FD2A0756C900FB5535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19DDD3FD2A0756C900FB5535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD3FC2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog.app */,
+				19DDD4122A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests.xctest */,
+				19DDD41C2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19DDD3FE2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4302A0756E100FB5535 /* Module */,
+				19DDD42F2A0756DA00FB5535 /* Core */,
+				19DDD3FF2A0756C900FB5535 /* AppDelegate.swift */,
+				19DDD4012A0756C900FB5535 /* SceneDelegate.swift */,
+				19DDD4082A0756CB00FB5535 /* Assets.xcassets */,
+				19DDD40A2A0756CB00FB5535 /* LaunchScreen.storyboard */,
+				19DDD40D2A0756CB00FB5535 /* Info.plist */,
+			);
+			path = "Submission Aplikasi Bentuk Katalog";
+			sourceTree = "<group>";
+		};
+		19DDD4152A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4162A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift */,
+			);
+			path = "Submission Aplikasi Bentuk KatalogTests";
+			sourceTree = "<group>";
+		};
+		19DDD41F2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4202A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift */,
+				19DDD4222A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift */,
+			);
+			path = "Submission Aplikasi Bentuk KatalogUITests";
+			sourceTree = "<group>";
+		};
+		19DDD42F2A0756DA00FB5535 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD43C2A075A1E00FB5535 /* Extensions */,
+				19DDD4362A07571400FB5535 /* Helper */,
+				19DDD4352A07570F00FB5535 /* Views */,
+				19DDD4342A07570900FB5535 /* Data */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		19DDD4302A0756E100FB5535 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4332A07570000FB5535 /* Profile */,
+				19DDD4322A0756F600FB5535 /* Game Detail */,
+				19DDD4312A0756E800FB5535 /* Game Catalog */,
+				19DDD4032A0756C900FB5535 /* ViewController.swift */,
+				19DDD4052A0756C900FB5535 /* Main.storyboard */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		19DDD4312A0756E800FB5535 /* Game Catalog */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Game Catalog";
+			sourceTree = "<group>";
+		};
+		19DDD4322A0756F600FB5535 /* Game Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Game Detail";
+			sourceTree = "<group>";
+		};
+		19DDD4332A07570000FB5535 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		19DDD4342A07570900FB5535 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4422A075DDE00FB5535 /* Remote */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		19DDD4352A07570F00FB5535 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4372A0757CE00FB5535 /* Game Catalog Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19DDD4362A07571400FB5535 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD44A2A07D6A200FB5535 /* Image Downloader */,
+				19DDD43F2A075AEB00FB5535 /* ColorHelper */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		19DDD4372A0757CE00FB5535 /* Game Catalog Cell */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4382A0757F000FB5535 /* GameCatalogTableViewCell.swift */,
+				19DDD4392A0757F000FB5535 /* GameCatalogTableViewCell.xib */,
+			);
+			path = "Game Catalog Cell";
+			sourceTree = "<group>";
+		};
+		19DDD43C2A075A1E00FB5535 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD43D2A075A3B00FB5535 /* UIView+Extensions.swift */,
+				19DDD4482A07D11F00FB5535 /* UIViewController+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		19DDD43F2A075AEB00FB5535 /* ColorHelper */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4402A075AF700FB5535 /* ColorHelper.swift */,
+			);
+			path = ColorHelper;
+			sourceTree = "<group>";
+		};
+		19DDD4422A075DDE00FB5535 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4432A075DEC00FB5535 /* Response */,
+				19DDD4442A075E0200FB5535 /* GameCatalogRemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		19DDD4432A075DEC00FB5535 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD4462A075E0A00FB5535 /* GameCatalogResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		19DDD44A2A07D6A200FB5535 /* Image Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */,
+			);
+			path = "Image Downloader";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19DDD3FB2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DDD4262A0756CB00FB5535 /* Build configuration list for PBXNativeTarget "Submission Aplikasi Bentuk Katalog" */;
+			buildPhases = (
+				19DDD3F82A0756C900FB5535 /* Sources */,
+				19DDD3F92A0756C900FB5535 /* Frameworks */,
+				19DDD3FA2A0756C900FB5535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Submission Aplikasi Bentuk Katalog";
+			productName = "Submission Aplikasi Bentuk Katalog";
+			productReference = 19DDD3FC2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19DDD4112A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DDD4292A0756CB00FB5535 /* Build configuration list for PBXNativeTarget "Submission Aplikasi Bentuk KatalogTests" */;
+			buildPhases = (
+				19DDD40E2A0756CB00FB5535 /* Sources */,
+				19DDD40F2A0756CB00FB5535 /* Frameworks */,
+				19DDD4102A0756CB00FB5535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19DDD4142A0756CB00FB5535 /* PBXTargetDependency */,
+			);
+			name = "Submission Aplikasi Bentuk KatalogTests";
+			productName = "Submission Aplikasi Bentuk KatalogTests";
+			productReference = 19DDD4122A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19DDD41B2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19DDD42C2A0756CB00FB5535 /* Build configuration list for PBXNativeTarget "Submission Aplikasi Bentuk KatalogUITests" */;
+			buildPhases = (
+				19DDD4182A0756CB00FB5535 /* Sources */,
+				19DDD4192A0756CB00FB5535 /* Frameworks */,
+				19DDD41A2A0756CB00FB5535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19DDD41E2A0756CB00FB5535 /* PBXTargetDependency */,
+			);
+			name = "Submission Aplikasi Bentuk KatalogUITests";
+			productName = "Submission Aplikasi Bentuk KatalogUITests";
+			productReference = 19DDD41C2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19DDD3F42A0756C900FB5535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					19DDD3FB2A0756C900FB5535 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					19DDD4112A0756CB00FB5535 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 19DDD3FB2A0756C900FB5535;
+					};
+					19DDD41B2A0756CB00FB5535 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 19DDD3FB2A0756C900FB5535;
+					};
+				};
+			};
+			buildConfigurationList = 19DDD3F72A0756C900FB5535 /* Build configuration list for PBXProject "Submission Aplikasi Bentuk Katalog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19DDD3F32A0756C900FB5535;
+			productRefGroup = 19DDD3FD2A0756C900FB5535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19DDD3FB2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog */,
+				19DDD4112A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests */,
+				19DDD41B2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19DDD3FA2A0756C900FB5535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DDD40C2A0756CB00FB5535 /* LaunchScreen.storyboard in Resources */,
+				19DDD43B2A0757F000FB5535 /* GameCatalogTableViewCell.xib in Resources */,
+				19DDD4092A0756CB00FB5535 /* Assets.xcassets in Resources */,
+				19DDD4072A0756C900FB5535 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DDD4102A0756CB00FB5535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DDD41A2A0756CB00FB5535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19DDD3F82A0756C900FB5535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DDD4472A075E0A00FB5535 /* GameCatalogResponse.swift in Sources */,
+				19DDD4042A0756C900FB5535 /* ViewController.swift in Sources */,
+				19DDD4412A075AF700FB5535 /* ColorHelper.swift in Sources */,
+				19DDD43A2A0757F000FB5535 /* GameCatalogTableViewCell.swift in Sources */,
+				19DDD4492A07D11F00FB5535 /* UIViewController+Extensions.swift in Sources */,
+				19DDD43E2A075A3B00FB5535 /* UIView+Extensions.swift in Sources */,
+				19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */,
+				19DDD4002A0756C900FB5535 /* AppDelegate.swift in Sources */,
+				19DDD4022A0756C900FB5535 /* SceneDelegate.swift in Sources */,
+				19DDD4452A075E0200FB5535 /* GameCatalogRemoteDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DDD40E2A0756CB00FB5535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DDD4172A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19DDD4182A0756CB00FB5535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DDD4212A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift in Sources */,
+				19DDD4232A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19DDD4142A0756CB00FB5535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19DDD3FB2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog */;
+			targetProxy = 19DDD4132A0756CB00FB5535 /* PBXContainerItemProxy */;
+		};
+		19DDD41E2A0756CB00FB5535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19DDD3FB2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog */;
+			targetProxy = 19DDD41D2A0756CB00FB5535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19DDD4052A0756C900FB5535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DDD4062A0756C900FB5535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19DDD40A2A0756CB00FB5535 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19DDD40B2A0756CB00FB5535 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19DDD4242A0756CB00FB5535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19DDD4252A0756CB00FB5535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19DDD4272A0756CB00FB5535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 282R274LXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Submission Aplikasi Bentuk Katalog/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arya.Submission-Aplikasi-Bentuk-Katalog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19DDD4282A0756CB00FB5535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 282R274LXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Submission Aplikasi Bentuk Katalog/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arya.Submission-Aplikasi-Bentuk-Katalog";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19DDD42A2A0756CB00FB5535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 282R274LXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arya.Submission-Aplikasi-Bentuk-KatalogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Submission Aplikasi Bentuk Katalog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Submission Aplikasi Bentuk Katalog";
+			};
+			name = Debug;
+		};
+		19DDD42B2A0756CB00FB5535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 282R274LXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arya.Submission-Aplikasi-Bentuk-KatalogTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Submission Aplikasi Bentuk Katalog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Submission Aplikasi Bentuk Katalog";
+			};
+			name = Release;
+		};
+		19DDD42D2A0756CB00FB5535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 282R274LXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arya.Submission-Aplikasi-Bentuk-KatalogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Submission Aplikasi Bentuk Katalog";
+			};
+			name = Debug;
+		};
+		19DDD42E2A0756CB00FB5535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 282R274LXF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arya.Submission-Aplikasi-Bentuk-KatalogUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Submission Aplikasi Bentuk Katalog";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19DDD3F72A0756C900FB5535 /* Build configuration list for PBXProject "Submission Aplikasi Bentuk Katalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DDD4242A0756CB00FB5535 /* Debug */,
+				19DDD4252A0756CB00FB5535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DDD4262A0756CB00FB5535 /* Build configuration list for PBXNativeTarget "Submission Aplikasi Bentuk Katalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DDD4272A0756CB00FB5535 /* Debug */,
+				19DDD4282A0756CB00FB5535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DDD4292A0756CB00FB5535 /* Build configuration list for PBXNativeTarget "Submission Aplikasi Bentuk KatalogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DDD42A2A0756CB00FB5535 /* Debug */,
+				19DDD42B2A0756CB00FB5535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19DDD42C2A0756CB00FB5535 /* Build configuration list for PBXNativeTarget "Submission Aplikasi Bentuk KatalogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DDD42D2A0756CB00FB5535 /* Debug */,
+				19DDD42E2A0756CB00FB5535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19DDD3F42A0756C900FB5535 /* Project object */;
+}
