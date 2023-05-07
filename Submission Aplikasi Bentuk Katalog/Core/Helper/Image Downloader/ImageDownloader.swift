@@ -10,8 +10,8 @@ import UIKit
 class ImageDownloader {
     static let shared = ImageDownloader()
     
-    func downloadImage(url: URL) async throws -> UIImage {
+    func downloadImage(url: URL) async throws -> UIImage? {
         async let imageData: Data = try Data(contentsOf: url)
-        return UIImage(data: try await imageData)!
+        return UIImage(data: try await imageData)
     }
 }
