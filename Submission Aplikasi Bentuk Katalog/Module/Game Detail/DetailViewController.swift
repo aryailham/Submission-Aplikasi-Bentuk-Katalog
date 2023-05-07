@@ -11,6 +11,9 @@ class DetailViewController: UIViewController {
     // MARK: - IBOUTLET
     @IBOutlet weak var gameImage: UIImageView!
     
+    @IBOutlet weak var releaseDateView: UIView!
+    @IBOutlet weak var releaseDate: UILabel!
+    
     @IBOutlet weak var gameTitle: UILabel!
     
     @IBOutlet weak var generalCardView: UIView!
@@ -38,8 +41,13 @@ class DetailViewController: UIViewController {
     
     private func setupView() {
         generalCardView.createAsCard()
+        generalCardView.backgroundColor = UIColor(red: 0.975, green: 0.975, blue: 0.975, alpha: 1)
         aboutCardView.createAsCard()
+        aboutCardView.backgroundColor = UIColor(red: 0.975, green: 0.975, blue: 0.975, alpha: 1)
         tagsCardView.createAsCard()
+        tagsCardView.backgroundColor = UIColor(red: 0.975, green: 0.975, blue: 0.975, alpha: 1)
+        releaseDateView.createAsCard()
+        releaseDateView.backgroundColor = UIColor(red: 0.975, green: 0.975, blue: 0.975, alpha: 1)
     }
     
     private func renderData() {
@@ -48,6 +56,7 @@ class DetailViewController: UIViewController {
             let image = try await ImageDownloader.shared.downloadImage(url: URL(string: details.backgroundImage)!)
             self.gameImage.image = image
         }
+        self.releaseDate.text = "Released: \(details.released)"
         self.gameTitle.text = details.name
         self.rating.text = String(details.rating)
         self.ranking.text = String(details.ratingTop)
