@@ -68,5 +68,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: false)
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        vc.gameID = gameCatalog[indexPath.row].id
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
