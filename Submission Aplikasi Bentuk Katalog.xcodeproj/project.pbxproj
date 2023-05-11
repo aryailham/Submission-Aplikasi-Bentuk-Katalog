@@ -13,9 +13,6 @@
 		19DDD4072A0756C900FB5535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DDD4052A0756C900FB5535 /* Main.storyboard */; };
 		19DDD4092A0756CB00FB5535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DDD4082A0756CB00FB5535 /* Assets.xcassets */; };
 		19DDD40C2A0756CB00FB5535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DDD40A2A0756CB00FB5535 /* LaunchScreen.storyboard */; };
-		19DDD4172A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4162A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift */; };
-		19DDD4212A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4202A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift */; };
-		19DDD4232A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4222A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift */; };
 		19DDD43A2A0757F000FB5535 /* GameCatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4382A0757F000FB5535 /* GameCatalogTableViewCell.swift */; };
 		19DDD43B2A0757F000FB5535 /* GameCatalogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DDD4392A0757F000FB5535 /* GameCatalogTableViewCell.xib */; };
 		19DDD43E2A075A3B00FB5535 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD43D2A075A3B00FB5535 /* UIView+Extensions.swift */; };
@@ -28,6 +25,11 @@
 		19DDD4502A07E92C00FB5535 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44F2A07E92C00FB5535 /* DetailViewController.swift */; };
 		19DDD4522A07EF2000FB5535 /* GameDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4512A07EF2000FB5535 /* GameDetailResponse.swift */; };
 		19DDD4542A086A5D00FB5535 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4532A086A5D00FB5535 /* String+Extensions.swift */; };
+		4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */; };
+		4DD471F62A0CB0E800D6466B /* WishlistLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F52A0CB0E800D6466B /* WishlistLocalDataSource.swift */; };
+		4DD471F92A0CB15B00D6466B /* WishlistModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F72A0CB15B00D6466B /* WishlistModel.xcdatamodeld */; };
+		4DD471FC2A0D397700D6466B /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471FB2A0D397700D6466B /* GameModel.swift */; };
+		4DD471FF2A0D3EFA00D6466B /* GameMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471FE2A0D3EFA00D6466B /* GameMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,10 +59,7 @@
 		19DDD40B2A0756CB00FB5535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19DDD40D2A0756CB00FB5535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19DDD4122A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Submission Aplikasi Bentuk KatalogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19DDD4162A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submission_Aplikasi_Bentuk_KatalogTests.swift; sourceTree = "<group>"; };
 		19DDD41C2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Submission Aplikasi Bentuk KatalogUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		19DDD4202A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submission_Aplikasi_Bentuk_KatalogUITests.swift; sourceTree = "<group>"; };
-		19DDD4222A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		19DDD4382A0757F000FB5535 /* GameCatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogTableViewCell.swift; sourceTree = "<group>"; };
 		19DDD4392A0757F000FB5535 /* GameCatalogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameCatalogTableViewCell.xib; sourceTree = "<group>"; };
 		19DDD43D2A075A3B00FB5535 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
@@ -73,6 +72,11 @@
 		19DDD44F2A07E92C00FB5535 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		19DDD4512A07EF2000FB5535 /* GameDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailResponse.swift; sourceTree = "<group>"; };
 		19DDD4532A086A5D00FB5535 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
+		4DD471F52A0CB0E800D6466B /* WishlistLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistLocalDataSource.swift; sourceTree = "<group>"; };
+		4DD471F82A0CB15B00D6466B /* WishlistModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WishlistModel.xcdatamodel; sourceTree = "<group>"; };
+		4DD471FB2A0D397700D6466B /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		4DD471FE2A0D3EFA00D6466B /* GameMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				19DDD3FE2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog */,
-				19DDD4152A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests */,
-				19DDD41F2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests */,
 				19DDD3FD2A0756C900FB5535 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,30 +132,15 @@
 				19DDD4082A0756CB00FB5535 /* Assets.xcassets */,
 				19DDD40A2A0756CB00FB5535 /* LaunchScreen.storyboard */,
 				19DDD40D2A0756CB00FB5535 /* Info.plist */,
+				4DD471F72A0CB15B00D6466B /* WishlistModel.xcdatamodeld */,
 			);
 			path = "Submission Aplikasi Bentuk Katalog";
-			sourceTree = "<group>";
-		};
-		19DDD4152A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogTests */ = {
-			isa = PBXGroup;
-			children = (
-				19DDD4162A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift */,
-			);
-			path = "Submission Aplikasi Bentuk KatalogTests";
-			sourceTree = "<group>";
-		};
-		19DDD41F2A0756CB00FB5535 /* Submission Aplikasi Bentuk KatalogUITests */ = {
-			isa = PBXGroup;
-			children = (
-				19DDD4202A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift */,
-				19DDD4222A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift */,
-			);
-			path = "Submission Aplikasi Bentuk KatalogUITests";
 			sourceTree = "<group>";
 		};
 		19DDD42F2A0756DA00FB5535 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				4DD471FD2A0D3EF000D6466B /* Mapper */,
 				19DDD43C2A075A1E00FB5535 /* Extensions */,
 				19DDD4362A07571400FB5535 /* Helper */,
 				19DDD4352A07570F00FB5535 /* Views */,
@@ -165,6 +152,7 @@
 		19DDD4302A0756E100FB5535 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				4DD471F12A0CADA600D6466B /* Wishlist */,
 				19DDD4332A07570000FB5535 /* Profile */,
 				19DDD4322A0756F600FB5535 /* Game Detail */,
 				19DDD4312A0756E800FB5535 /* Game Catalog */,
@@ -200,6 +188,8 @@
 		19DDD4342A07570900FB5535 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				4DD471FA2A0D396B00D6466B /* Domain Model */,
+				4DD471F42A0CB0CF00D6466B /* Local */,
 				19DDD4422A075DDE00FB5535 /* Remote */,
 			);
 			path = Data;
@@ -273,6 +263,38 @@
 				19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */,
 			);
 			path = "Image Downloader";
+			sourceTree = "<group>";
+		};
+		4DD471F12A0CADA600D6466B /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */,
+			);
+			path = Wishlist;
+			sourceTree = "<group>";
+		};
+		4DD471F42A0CB0CF00D6466B /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				4DD471F52A0CB0E800D6466B /* WishlistLocalDataSource.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		4DD471FA2A0D396B00D6466B /* Domain Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DD471FB2A0D397700D6466B /* GameModel.swift */,
+			);
+			path = "Domain Model";
+			sourceTree = "<group>";
+		};
+		4DD471FD2A0D3EF000D6466B /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				4DD471FE2A0D3EFA00D6466B /* GameMapper.swift */,
+			);
+			path = Mapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,12 +431,17 @@
 			files = (
 				19DDD4472A075E0A00FB5535 /* GameCatalogResponse.swift in Sources */,
 				19DDD4042A0756C900FB5535 /* ViewController.swift in Sources */,
+				4DD471F92A0CB15B00D6466B /* WishlistModel.xcdatamodeld in Sources */,
 				19DDD4412A075AF700FB5535 /* ColorHelper.swift in Sources */,
 				19DDD4502A07E92C00FB5535 /* DetailViewController.swift in Sources */,
 				19DDD43A2A0757F000FB5535 /* GameCatalogTableViewCell.swift in Sources */,
+				4DD471F62A0CB0E800D6466B /* WishlistLocalDataSource.swift in Sources */,
 				19DDD4492A07D11F00FB5535 /* UIViewController+Extensions.swift in Sources */,
 				19DDD43E2A075A3B00FB5535 /* UIView+Extensions.swift in Sources */,
+				4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */,
 				19DDD44E2A07E69700FB5535 /* ProfileViewController.swift in Sources */,
+				4DD471FC2A0D397700D6466B /* GameModel.swift in Sources */,
+				4DD471FF2A0D3EFA00D6466B /* GameMapper.swift in Sources */,
 				19DDD4542A086A5D00FB5535 /* String+Extensions.swift in Sources */,
 				19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */,
 				19DDD4002A0756C900FB5535 /* AppDelegate.swift in Sources */,
@@ -428,7 +455,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19DDD4172A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +462,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19DDD4212A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITests.swift in Sources */,
-				19DDD4232A0756CB00FB5535 /* Submission_Aplikasi_Bentuk_KatalogUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +629,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,6 +658,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -762,6 +788,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DD471F72A0CB15B00D6466B /* WishlistModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DD471F82A0CB15B00D6466B /* WishlistModel.xcdatamodel */,
+			);
+			currentVersion = 4DD471F82A0CB15B00D6466B /* WishlistModel.xcdatamodel */;
+			path = WishlistModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 19DDD3F42A0756C900FB5535 /* Project object */;
 }

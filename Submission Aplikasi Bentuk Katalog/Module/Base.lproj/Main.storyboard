@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JhZ-xU-gdk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JhZ-xU-gdk">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -38,12 +38,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1957.9710144927537" y="-2.0089285714285712"/>
+            <point key="canvasLocation" x="2023" y="-674"/>
         </scene>
         <!--Game-->
         <scene sceneID="4H7-Iu-wrI">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController" title="Game" interactionActivityTrackingBaseName="Game" id="2my-F1-3QL" customClass="DetailViewController" customModule="Submission_Aplikasi_Bentuk_Katalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController" title="Game" id="2my-F1-3QL" customClass="DetailViewController" customModule="Submission_Aplikasi_Bentuk_Katalog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zZq-49-ETO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,15 +78,46 @@
                                                             <constraint firstItem="rlz-Li-qb0" firstAttribute="top" secondItem="qOQ-Gg-aTs" secondAttribute="top" constant="6" id="y8H-xf-1Bj"/>
                                                         </constraints>
                                                     </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kwc-SU-0Np">
+                                                        <rect key="frame" x="374" y="16" width="24" height="24"/>
+                                                        <subviews>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="lJs-Fo-1iI">
+                                                                <rect key="frame" x="0.0" y="1.5" width="24" height="21.5"/>
+                                                                <color key="tintColor" systemColor="systemGrayColor"/>
+                                                            </imageView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BIe-c8-76h">
+                                                                <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <connections>
+                                                                    <action selector="wishlistTapped:" destination="2my-F1-3QL" eventType="touchUpInside" id="uMp-4h-MIR"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="BIe-c8-76h" firstAttribute="leading" secondItem="kwc-SU-0Np" secondAttribute="leading" id="6Mi-PA-1ok"/>
+                                                            <constraint firstAttribute="bottom" secondItem="BIe-c8-76h" secondAttribute="bottom" id="9RT-Qt-Nzt"/>
+                                                            <constraint firstAttribute="trailing" secondItem="lJs-Fo-1iI" secondAttribute="trailing" id="GJl-Kt-uuF"/>
+                                                            <constraint firstItem="lJs-Fo-1iI" firstAttribute="top" secondItem="kwc-SU-0Np" secondAttribute="top" id="HOd-5k-7sH"/>
+                                                            <constraint firstItem="lJs-Fo-1iI" firstAttribute="leading" secondItem="kwc-SU-0Np" secondAttribute="leading" id="OsV-Uy-FCz"/>
+                                                            <constraint firstAttribute="width" constant="24" id="ZxB-re-HOf"/>
+                                                            <constraint firstAttribute="bottom" secondItem="lJs-Fo-1iI" secondAttribute="bottom" id="cU0-Ol-gLQ"/>
+                                                            <constraint firstItem="BIe-c8-76h" firstAttribute="top" secondItem="kwc-SU-0Np" secondAttribute="top" id="ozZ-xJ-MQc"/>
+                                                            <constraint firstAttribute="height" constant="24" id="yOq-26-8qH"/>
+                                                            <constraint firstAttribute="trailing" secondItem="BIe-c8-76h" secondAttribute="trailing" id="z9c-d1-yMY"/>
+                                                        </constraints>
+                                                    </view>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="0vN-kn-YKc" secondAttribute="trailing" id="3j3-jf-COw"/>
                                                     <constraint firstAttribute="height" constant="207" id="AkK-2i-cfw"/>
                                                     <constraint firstItem="0vN-kn-YKc" firstAttribute="top" secondItem="0iL-gv-Gbn" secondAttribute="top" id="DCU-RC-mIk"/>
+                                                    <constraint firstItem="kwc-SU-0Np" firstAttribute="top" secondItem="0iL-gv-Gbn" secondAttribute="top" constant="16" id="DJ4-dL-ghw"/>
                                                     <constraint firstItem="0vN-kn-YKc" firstAttribute="leading" secondItem="0iL-gv-Gbn" secondAttribute="leading" id="IBj-i3-p8B"/>
                                                     <constraint firstAttribute="trailing" secondItem="qOQ-Gg-aTs" secondAttribute="trailing" constant="16" id="SVw-qV-LWX"/>
                                                     <constraint firstAttribute="bottom" secondItem="qOQ-Gg-aTs" secondAttribute="bottom" constant="14" id="Vzw-K0-vnG"/>
+                                                    <constraint firstAttribute="trailing" secondItem="kwc-SU-0Np" secondAttribute="trailing" constant="16" id="fSF-4o-KuW"/>
                                                     <constraint firstAttribute="bottom" secondItem="0vN-kn-YKc" secondAttribute="bottom" id="s80-YZ-xWL"/>
                                                 </constraints>
                                             </view>
@@ -336,11 +367,13 @@
                         <outlet property="releaseDateView" destination="qOQ-Gg-aTs" id="OTq-GV-DZU"/>
                         <outlet property="tags" destination="doz-0h-Vxq" id="plS-lU-Fgd"/>
                         <outlet property="tagsCardView" destination="Lnj-oo-Oqk" id="l1R-cy-7eu"/>
+                        <outlet property="wishlistImage" destination="lJs-Fo-1iI" id="6Fy-Gq-ePl"/>
+                        <outlet property="wishlistView" destination="kwc-SU-0Np" id="Bsp-ZK-tpr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hra-Gn-pYa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3241" y="14"/>
+            <point key="canvasLocation" x="3052" y="-674"/>
         </scene>
         <!--Profile-->
         <scene sceneID="hJ2-k5-qgF">
@@ -389,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jhn-gH-ieg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2789.8550724637685" y="717.85714285714278"/>
+            <point key="canvasLocation" x="2222" y="1051"/>
         </scene>
         <!--Home-->
         <scene sceneID="y7y-Sl-Xpm">
@@ -408,7 +441,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TpI-re-1ut" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="-2.0089285714285712"/>
+            <point key="canvasLocation" x="1087" y="-674"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="r6X-lR-Wgc">
@@ -416,17 +449,50 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="JhZ-xU-gdk" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iNG-SF-gRl">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="0qG-i0-JNr" kind="relationship" relationship="viewControllers" id="eAI-zL-uBA"/>
+                        <segue destination="vVT-Jz-M5A" kind="relationship" relationship="viewControllers" id="p4O-Qj-1ch"/>
                         <segue destination="JnV-pI-1KL" kind="relationship" relationship="viewControllers" id="RAF-XZ-fuv"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XlQ-70-cF2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="-2.0089285714285712"/>
+            <point key="canvasLocation" x="154" y="-2"/>
+        </scene>
+        <!--Wishlist-->
+        <scene sceneID="iG0-cV-KGI">
+            <objects>
+                <viewController storyboardIdentifier="WishlistViewController" id="jqv-XL-IL7" customClass="WishlistViewController" customModule="Submission_Aplikasi_Bentuk_Katalog" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wZM-kg-X3i">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Pof-dM-mTP">
+                                <rect key="frame" x="8" y="144" width="398" height="669"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Gzd-rd-URg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Pof-dM-mTP" firstAttribute="leading" secondItem="Gzd-rd-URg" secondAttribute="leading" constant="8" id="AO0-mA-uuw"/>
+                            <constraint firstItem="Gzd-rd-URg" firstAttribute="trailing" secondItem="Pof-dM-mTP" secondAttribute="trailing" constant="8" id="AhC-sp-tI0"/>
+                            <constraint firstItem="Gzd-rd-URg" firstAttribute="bottom" secondItem="Pof-dM-mTP" secondAttribute="bottom" id="GqK-DJ-sCM"/>
+                            <constraint firstItem="Pof-dM-mTP" firstAttribute="top" secondItem="Gzd-rd-URg" secondAttribute="top" id="o5j-NL-EJD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Wishlist" id="yGn-br-qC4"/>
+                    <connections>
+                        <outlet property="tableView" destination="Pof-dM-mTP" id="awq-0E-rzj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eBF-Ws-QW2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2022" y="33"/>
         </scene>
         <!--Profile-->
         <scene sceneID="06n-IH-1wh">
@@ -445,11 +511,32 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WT7-fX-sz0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1879.7101449275365" y="717.85714285714278"/>
+            <point key="canvasLocation" x="1087" y="1052"/>
+        </scene>
+        <!--Wishlist-->
+        <scene sceneID="VkO-ST-QeT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vVT-Jz-M5A" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Wishlist" image="heart" catalog="system" selectedImage="heart.fill" id="fvI-5O-KsT"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="UAU-0j-HYe">
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jqv-XL-IL7" kind="relationship" relationship="rootViewController" id="FkQ-hd-p4g"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lyB-ZR-PN5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1087" y="33"/>
         </scene>
     </scenes>
     <resources>
         <image name="Profile" width="234.5" height="243.5"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="heart.fill" catalog="system" width="128" height="107"/>
         <image name="house" catalog="system" width="128" height="104"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="person" catalog="system" width="128" height="121"/>

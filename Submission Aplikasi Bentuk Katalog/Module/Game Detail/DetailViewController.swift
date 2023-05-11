@@ -27,16 +27,79 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var tagsCardView: UIView!
     @IBOutlet weak var tags: UILabel!
     
+    @IBOutlet weak var wishlistImage: UIImageView!
+    @IBOutlet weak var wishlistView: UIView!
+    
     // MARK: - VARIABLES
-    var remote = GameCatalogRemoteDataSource()
+    var gameFetcher: GameDataFetcher?
+    var local = WishlistLocalDataSource.shared
     var gameID: Int?
-    var gameDetails: GameDetailsResponse?
+    var gameDetails: GameModel?
+    
+    var oldWishlistValue: Bool = false
+    var isWishlisted: Bool = false
+    
+    let wishlistThread = DispatchQueue(label: "wishlistThread", attributes: .concurrent)
     
     // MARK: - FUNCTIONS
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
         getDetails()
+        if let id = gameID {
+            wishlistThread.async(flags: .barrier) { [self] in
+                oldWishlistValue = local.checkIfWishlisted(gameID: id)
+                switch oldWishlistValue {
+                case true:
+                    setWishlisted()
+                case false:
+                    setUnwishlisted()
+                }
+                
+            }
+        }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        if oldWishlistValue != isWishlisted {
+            wishlistThread.sync { [self] in
+                switch isWishlisted {
+                    case true:
+                    guard let game = gameDetails else { return }
+                    local.storeNewWishlist(game: game)
+                    case false:
+                    guard let id = gameDetails?.id else { return }
+                    local.removeWishlistedGame(gameID: id)
+                    break
+                }
+
+            }
+        }
+    }
+    
+    @IBAction func wishlistTapped(_ sender: UIButton) {
+        switch isWishlisted {
+            case true:
+            setUnwishlisted()
+            case false:
+            setWishlisted()
+        }
+    }
+    
+    private func setWishlisted() {
+        DispatchQueue.main.async { [self] in
+            self.isWishlisted = true
+            wishlistImage.image = UIImage(systemName: "heart.fill")
+            wishlistImage.tintColor = .red
+        }
+    }
+    
+    private func setUnwishlisted() {
+        DispatchQueue.main.async { [self] in
+            self.isWishlisted = false
+            wishlistImage.image = UIImage(systemName: "heart")
+            wishlistImage.tintColor = .gray
+        }
     }
     
     private func setupView() {
@@ -48,24 +111,28 @@ class DetailViewController: UIViewController {
         tagsCardView.backgroundColor = UIColor(red: 0.975, green: 0.975, blue: 0.975, alpha: 1)
         releaseDateView.createAsCard()
         releaseDateView.backgroundColor = UIColor(red: 0.975, green: 0.975, blue: 0.975, alpha: 1)
+        
+        wishlistView.layer.cornerRadius = wishlistView.bounds.height / 2
     }
     
     private func renderData() {
         guard let details = gameDetails else {return}
         Task {
-            let image = try await ImageDownloader.shared.downloadImage(url: URL(string: details.backgroundImage)!)
+            let image = try await ImageDownloader.shared.downloadImage(url: URL(string: details.backgroundImage ?? "")!)
             self.gameImage.image = image
         }
-        self.releaseDate.text = "Released: \(details.released)"
+        self.releaseDate.text = "Released: \(details.released ?? "Not Yet")"
         self.gameTitle.text = details.name
-        self.rating.text = String(details.rating)
-        self.ranking.text = String(details.ratingTop)
-        self.metacritic.text = String(details.metacritic)
-        self.about.attributedText = details.description.htmlToAttributedString
+        self.rating.text = String(details.rating ?? 0)
+        self.ranking.text = String(details.ratingTop ?? 0)
+        self.metacritic.text = String(details.metacritic ?? 0)
+        if let description = details.description {
+            self.about.attributedText = description.htmlToAttributedString
+        }
         
         self.tags.text = ""
         details.tags.forEach { tag in
-            self.tags.text?.append(tag.name)
+            self.tags.text?.append(tag.name ?? "")
             if tag.id != details.tags.last?.id {
                 self.tags.text?.append(", ")
             }
@@ -74,7 +141,7 @@ class DetailViewController: UIViewController {
     
     private func getDetails() {
         guard let id = gameID else {return}
-        remote.getGameDetails(id: id) { [weak self] result in
+        gameFetcher?.getGameDetails(id: id) { [weak self] result in
             guard let self = self else {return}
             switch result {
             case .success(let success):

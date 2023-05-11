@@ -71,6 +71,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
         vc.gameID = gameCatalog[indexPath.row].id
+        vc.gameFetcher = GameCatalogRemoteDataSource.shared
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

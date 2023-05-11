@@ -48,4 +48,11 @@ class GameCatalogTableViewCell: UITableViewCell {
 //            }
         }
     }
+    
+    override func prepareForReuse() {
+        self.gameImage.image = nil
+        self.gameTitle.text = ""
+        self.gameRating.text = ""
+        self.gameReleaseDate.text = ""
+    }
 }
