@@ -39,8 +39,6 @@ extension GameCatalogDefaultLocalDataSource: GameCatalogLocalDataSource {
                 do {
                     if !gameCatalog.isEmpty {
                         try realm.write({
-                            realm.delete(realm.objects(GameCatalogEntity.self))
-                            realm.delete(realm.objects(GameTagsEntity.self))
                             for game in gameCatalog {
                                 realm.add(game, update: .all)
                             }
