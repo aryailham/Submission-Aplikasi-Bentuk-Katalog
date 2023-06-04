@@ -11,7 +11,7 @@ class WishlistViewController: UIViewController {
     // MARK: - IBOUTLETS
     @IBOutlet weak var tableView: UITableView!
     
-    private let local = WishlistLocalDataSource()
+    private let local = WishlistDefaultLocalDataSource()
     private var wishlist: [Wishlist] = []
     
     override func viewDidLoad() {
@@ -59,7 +59,7 @@ extension WishlistViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
         vc.gameID = Int(wishlist[indexPath.row].id)
-        vc.gameFetcher = WishlistLocalDataSource.shared
+        vc.gameFetcher = WishlistDefaultLocalDataSource.shared
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
