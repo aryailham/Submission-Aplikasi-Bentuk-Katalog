@@ -39,7 +39,6 @@ class GameMapper {
         gameModel.metacritic = Int(gameEntity.metacritic)
         gameModel.description = gameEntity.gameDescription
         
-//        let set = gameEntity.tags as? NSSet<Tags> ?? []
         let set = gameEntity.tags?.allObjects as! [GameTags]
         set.forEach { tags in
             var tagsModel = TagsModel()

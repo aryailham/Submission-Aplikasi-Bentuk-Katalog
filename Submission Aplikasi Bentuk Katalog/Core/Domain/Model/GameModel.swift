@@ -15,7 +15,6 @@ struct GameModel {
     var ratingTop, metacritic: Int?
     var description: String?
     var tags: [TagsModel] = []
-
 }
 
 
