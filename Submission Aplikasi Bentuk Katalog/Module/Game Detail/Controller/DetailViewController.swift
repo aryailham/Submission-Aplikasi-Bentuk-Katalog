@@ -31,8 +31,8 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var wishlistView: UIView!
     
     // MARK: - VARIABLES
-    var gameFetcher: GameDataFetcher?
-    var local = WishlistLocalDataSource.shared
+    var gameFetcher: GameCatalogDetailRemoteDataSource?
+    var local = WishlistDefaultLocalDataSource.shared
     var gameID: Int?
     var gameDetails: GameModel?
     
