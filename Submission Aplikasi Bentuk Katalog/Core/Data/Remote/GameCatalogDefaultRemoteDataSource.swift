@@ -20,7 +20,7 @@ protocol GameCatalogDetailRemoteDataSource {
 }
 
 protocol GameCatalogRemoteDataSource {
-    func getGameCatalog() -> Observable<[GameData]>
+    func getGameCatalog() -> Observable<[GameDataResponse]>
 }
 
 class GameCatalogDefaultRemoteDataSource {
@@ -32,8 +32,8 @@ class GameCatalogDefaultRemoteDataSource {
 }
 
 extension GameCatalogDefaultRemoteDataSource: GameCatalogRemoteDataSource {
-    func getGameCatalog() -> Observable<[GameData]> {
-        return Observable<[GameData]>.create { gameDataObserver in
+    func getGameCatalog() -> Observable<[GameDataResponse]> {
+        return Observable<[GameDataResponse]>.create { gameDataObserver in
             if let url = URL(string: self.GET_GAME_CATALOG) {
                 let parameters: Parameters = [
                     "key": self.API_KEY
