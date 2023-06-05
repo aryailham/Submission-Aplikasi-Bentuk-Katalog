@@ -18,7 +18,7 @@ struct GameModel {
 }
 
 
-struct TagsModel: Codable {
+struct TagsModel {
     var id: Int?
     var name: String?
 }

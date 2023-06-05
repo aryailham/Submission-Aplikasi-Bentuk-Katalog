@@ -3,4 +3,230 @@
    uuid = "862DC39B-83E4-4423-A0F4-E1ED2D813E9B"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40576266-DBC5-4A81-BFDD-E9A7CF1FD353"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Module/Game Catalog/Presenter/GameCatalogPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getGameCatalog()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "269CA75E-ADB3-4ED2-AE39-0082B63966EF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "addData(from:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "087AD738-2DD7-4240-ABD9-0F8D4FAE3728"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "addData(from:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "087AD738-2DD7-4240-ABD9-0F8D4FAE3728 - 408ba77196cfd488"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;Swift.Bool&gt;) -&gt; RxSwift.Disposable in Submission_Aplikasi_Bentuk_Katalog.GameCatalogDefaultLocalDataSource.addData(from: Swift.Array&lt;Submission_Aplikasi_Bentuk_Katalog.GameCatalogEntity&gt;) -&gt; RxSwift.Observable&lt;Swift.Bool&gt;"
+                  moduleName = "Submission Aplikasi Bentuk Katalog"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aryailham/Documents/Project/Dicoding%20Submission%20Aplikasi%20Bentuk%20Katalog/Submission%20Aplikasi%20Bentuk%20Katalog/Submission%20Aplikasi%20Bentuk%20Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "087AD738-2DD7-4240-ABD9-0F8D4FAE3728 - 408ba77196cfd488"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;Swift.Bool&gt;) -&gt; RxSwift.Disposable in Submission_Aplikasi_Bentuk_Katalog.GameCatalogDefaultLocalDataSource.addData(from: Swift.Array&lt;Submission_Aplikasi_Bentuk_Katalog.GameCatalogEntity&gt;) -&gt; RxSwift.Observable&lt;Swift.Bool&gt;"
+                  moduleName = "Submission Aplikasi Bentuk Katalog"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aryailham/Documents/Project/Dicoding%20Submission%20Aplikasi%20Bentuk%20Katalog/Submission%20Aplikasi%20Bentuk%20Katalog/Submission%20Aplikasi%20Bentuk%20Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "210">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F40BB1E-5715-49FB-A533-A9EB7693580F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "addData(from:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D7DED5C-4A40-406F-8509-9F07AFC5AC05"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "addData(from:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2051FC88-4D00-4BAE-BB50-5142E786197E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "addData(from:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "502D97E4-AB4B-41B3-ACED-FAD566A49A74"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "addData(from:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "502D97E4-AB4B-41B3-ACED-FAD566A49A74 - fe1deb0ec6877597"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Submission_Aplikasi_Bentuk_Katalog.GameCatalogDefaultLocalDataSource.addData(from: Swift.Array&lt;Submission_Aplikasi_Bentuk_Katalog.GameCatalogEntity&gt;) -&gt; RxSwift.Observable&lt;Swift.Bool&gt;"
+                  moduleName = "Submission Aplikasi Bentuk Katalog"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aryailham/Documents/Project/Dicoding%20Submission%20Aplikasi%20Bentuk%20Katalog/Submission%20Aplikasi%20Bentuk%20Katalog/Submission%20Aplikasi%20Bentuk%20Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "502D97E4-AB4B-41B3-ACED-FAD566A49A74 - 408ba77196cfd488"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;Swift.Bool&gt;) -&gt; RxSwift.Disposable in Submission_Aplikasi_Bentuk_Katalog.GameCatalogDefaultLocalDataSource.addData(from: Swift.Array&lt;Submission_Aplikasi_Bentuk_Katalog.GameCatalogEntity&gt;) -&gt; RxSwift.Observable&lt;Swift.Bool&gt;"
+                  moduleName = "Submission Aplikasi Bentuk Katalog"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aryailham/Documents/Project/Dicoding%20Submission%20Aplikasi%20Bentuk%20Katalog/Submission%20Aplikasi%20Bentuk%20Katalog/Submission%20Aplikasi%20Bentuk%20Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "150">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4D13FF0-915E-478D-B6C4-DFFB0222A398"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "addData(from:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "798D61B7-27AD-4A0C-91FD-51AD873B1BB0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Core/Data/Local/Entity/GameCatalogLocalDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "init(realm:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E6BF134F-D6D7-40A1-A8F2-69A2CC0BFE73"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Submission Aplikasi Bentuk Katalog/Core/DI/GameCatalogInjection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "provideGameCatalogRepository()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

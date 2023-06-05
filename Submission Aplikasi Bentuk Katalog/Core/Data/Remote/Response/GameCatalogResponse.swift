@@ -8,10 +8,10 @@
 import Foundation
 
 struct GameCatalogResponse: Codable {
-    let results: [GameData]
+    let results: [GameDataResponse]
 }
 
-struct GameData: Codable {
+struct GameDataResponse: Codable {
     let id: Int
     let name, released: String
     let backgroundImage: String

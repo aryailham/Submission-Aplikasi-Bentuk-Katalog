@@ -20,7 +20,7 @@
 		19DDD43A2A0757F000FB5535 /* GameCatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4382A0757F000FB5535 /* GameCatalogTableViewCell.swift */; };
 		19DDD43B2A0757F000FB5535 /* GameCatalogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19DDD4392A0757F000FB5535 /* GameCatalogTableViewCell.xib */; };
 		19DDD43E2A075A3B00FB5535 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD43D2A075A3B00FB5535 /* UIView+Extensions.swift */; };
-		19DDD4452A075E0200FB5535 /* GameCatalogRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4442A075E0200FB5535 /* GameCatalogRemoteDataSource.swift */; };
+		19DDD4452A075E0200FB5535 /* GameCatalogDefaultRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4442A075E0200FB5535 /* GameCatalogDefaultRemoteDataSource.swift */; };
 		19DDD4472A075E0A00FB5535 /* GameCatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4462A075E0A00FB5535 /* GameCatalogResponse.swift */; };
 		19DDD4492A07D11F00FB5535 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4482A07D11F00FB5535 /* UIViewController+Extensions.swift */; };
 		19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */; };
@@ -28,8 +28,18 @@
 		19DDD4502A07E92C00FB5535 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD44F2A07E92C00FB5535 /* DetailViewController.swift */; };
 		19DDD4522A07EF2000FB5535 /* GameDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4512A07EF2000FB5535 /* GameDetailResponse.swift */; };
 		19DDD4542A086A5D00FB5535 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DDD4532A086A5D00FB5535 /* String+Extensions.swift */; };
+		19F0107E2A2C9B31000A7D21 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 19F0107D2A2C9B31000A7D21 /* Realm */; };
+		19F010802A2C9B31000A7D21 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 19F0107F2A2C9B31000A7D21 /* RealmSwift */; };
+		19F010832A2C9B66000A7D21 /* GameCatalogEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010822A2C9B66000A7D21 /* GameCatalogEntity.swift */; };
+		19F010862A2C9C62000A7D21 /* GameTagsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010852A2C9C62000A7D21 /* GameTagsEntity.swift */; };
+		19F010882A2C9D0D000A7D21 /* GameCatalogLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010872A2C9D0D000A7D21 /* GameCatalogLocalDataSource.swift */; };
+		19F0108A2A2CA50F000A7D21 /* GameCatalogMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010892A2CA50F000A7D21 /* GameCatalogMapper.swift */; };
+		19F0108C2A2CB161000A7D21 /* GameCatalogUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0108B2A2CB161000A7D21 /* GameCatalogUseCase.swift */; };
+		19F0108F2A2CB2DF000A7D21 /* GameCatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0108E2A2CB2DF000A7D21 /* GameCatalogPresenter.swift */; };
+		19F010912A2CB9E1000A7D21 /* GameCatalogRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010902A2CB9E1000A7D21 /* GameCatalogRouter.swift */; };
+		19F010932A2CC641000A7D21 /* GameCatalogInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010922A2CC641000A7D21 /* GameCatalogInjection.swift */; };
 		4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */; };
-		4DD471F62A0CB0E800D6466B /* WishlistLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F52A0CB0E800D6466B /* WishlistLocalDataSource.swift */; };
+		4DD471F62A0CB0E800D6466B /* WishlistDefaultLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F52A0CB0E800D6466B /* WishlistDefaultLocalDataSource.swift */; };
 		4DD471F92A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F72A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld */; };
 		4DD471FC2A0D397700D6466B /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471FB2A0D397700D6466B /* GameModel.swift */; };
 		4DD471FF2A0D3EFA00D6466B /* GameMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471FE2A0D3EFA00D6466B /* GameMapper.swift */; };
@@ -67,7 +77,7 @@
 		19DDD4382A0757F000FB5535 /* GameCatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogTableViewCell.swift; sourceTree = "<group>"; };
 		19DDD4392A0757F000FB5535 /* GameCatalogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameCatalogTableViewCell.xib; sourceTree = "<group>"; };
 		19DDD43D2A075A3B00FB5535 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
-		19DDD4442A075E0200FB5535 /* GameCatalogRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogRemoteDataSource.swift; sourceTree = "<group>"; };
+		19DDD4442A075E0200FB5535 /* GameCatalogDefaultRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogDefaultRemoteDataSource.swift; sourceTree = "<group>"; };
 		19DDD4462A075E0A00FB5535 /* GameCatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogResponse.swift; sourceTree = "<group>"; };
 		19DDD4482A07D11F00FB5535 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		19DDD44B2A07D6B000FB5535 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
@@ -75,8 +85,16 @@
 		19DDD44F2A07E92C00FB5535 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		19DDD4512A07EF2000FB5535 /* GameDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailResponse.swift; sourceTree = "<group>"; };
 		19DDD4532A086A5D00FB5535 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		19F010822A2C9B66000A7D21 /* GameCatalogEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogEntity.swift; sourceTree = "<group>"; };
+		19F010852A2C9C62000A7D21 /* GameTagsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTagsEntity.swift; sourceTree = "<group>"; };
+		19F010872A2C9D0D000A7D21 /* GameCatalogLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogLocalDataSource.swift; sourceTree = "<group>"; };
+		19F010892A2CA50F000A7D21 /* GameCatalogMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogMapper.swift; sourceTree = "<group>"; };
+		19F0108B2A2CB161000A7D21 /* GameCatalogUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogUseCase.swift; sourceTree = "<group>"; };
+		19F0108E2A2CB2DF000A7D21 /* GameCatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogPresenter.swift; sourceTree = "<group>"; };
+		19F010902A2CB9E1000A7D21 /* GameCatalogRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogRouter.swift; sourceTree = "<group>"; };
+		19F010922A2CC641000A7D21 /* GameCatalogInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogInjection.swift; sourceTree = "<group>"; };
 		4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
-		4DD471F52A0CB0E800D6466B /* WishlistLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistLocalDataSource.swift; sourceTree = "<group>"; };
+		4DD471F52A0CB0E800D6466B /* WishlistDefaultLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistDefaultLocalDataSource.swift; sourceTree = "<group>"; };
 		4DD471F82A0CB15B00D6466B /* WishlistModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WishlistModel.xcdatamodel; sourceTree = "<group>"; };
 		4DD471FB2A0D397700D6466B /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		4DD471FE2A0D3EFA00D6466B /* GameMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMapper.swift; sourceTree = "<group>"; };
@@ -89,6 +107,8 @@
 			files = (
 				199432B52A2C8AB400FE6E8C /* RxSwift in Frameworks */,
 				199432B82A2C8AF500FE6E8C /* Alamofire in Frameworks */,
+				19F0107E2A2C9B31000A7D21 /* Realm in Frameworks */,
+				19F010802A2C9B31000A7D21 /* RealmSwift in Frameworks */,
 				199432BB2A2C8B0D00FE6E8C /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +151,7 @@
 		199432B12A2C894C00FE6E8C /* DI */ = {
 			isa = PBXGroup;
 			children = (
+				19F010922A2CC641000A7D21 /* GameCatalogInjection.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -147,6 +168,7 @@
 		199432BC2A2C8B4200FE6E8C /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				19F0108B2A2CB161000A7D21 /* GameCatalogUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -162,6 +184,7 @@
 		199432BE2A2C8B9C00FE6E8C /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				19F0108E2A2CB2DF000A7D21 /* GameCatalogPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -169,6 +192,7 @@
 		199432BF2A2C8BA100FE6E8C /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				19F010902A2CB9E1000A7D21 /* GameCatalogRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -350,7 +374,7 @@
 			isa = PBXGroup;
 			children = (
 				19DDD4432A075DEC00FB5535 /* Response */,
-				19DDD4442A075E0200FB5535 /* GameCatalogRemoteDataSource.swift */,
+				19DDD4442A075E0200FB5535 /* GameCatalogDefaultRemoteDataSource.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -372,6 +396,16 @@
 			path = "Image Downloader";
 			sourceTree = "<group>";
 		};
+		19F010812A2C9B3B000A7D21 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				19F010822A2C9B66000A7D21 /* GameCatalogEntity.swift */,
+				19F010852A2C9C62000A7D21 /* GameTagsEntity.swift */,
+				19F010872A2C9D0D000A7D21 /* GameCatalogLocalDataSource.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		4DD471F12A0CADA600D6466B /* Wishlist */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,8 +419,9 @@
 		4DD471F42A0CB0CF00D6466B /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				19F010812A2C9B3B000A7D21 /* Entity */,
 				4DD471F72A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld */,
-				4DD471F52A0CB0E800D6466B /* WishlistLocalDataSource.swift */,
+				4DD471F52A0CB0E800D6466B /* WishlistDefaultLocalDataSource.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -403,6 +438,7 @@
 			isa = PBXGroup;
 			children = (
 				4DD471FE2A0D3EFA00D6466B /* GameMapper.swift */,
+				19F010892A2CA50F000A7D21 /* GameCatalogMapper.swift */,
 			);
 			path = Mapper;
 			sourceTree = "<group>";
@@ -427,6 +463,8 @@
 				199432B42A2C8AB400FE6E8C /* RxSwift */,
 				199432B72A2C8AF500FE6E8C /* Alamofire */,
 				199432BA2A2C8B0D00FE6E8C /* AlamofireImage */,
+				19F0107D2A2C9B31000A7D21 /* Realm */,
+				19F0107F2A2C9B31000A7D21 /* RealmSwift */,
 			);
 			productName = "Submission Aplikasi Bentuk Katalog";
 			productReference = 19DDD3FC2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog.app */;
@@ -504,6 +542,7 @@
 				199432B32A2C8AB400FE6E8C /* XCRemoteSwiftPackageReference "RxSwift" */,
 				199432B62A2C8AF500FE6E8C /* XCRemoteSwiftPackageReference "Alamofire" */,
 				199432B92A2C8B0D00FE6E8C /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+				19F0107C2A2C9B31000A7D21 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 19DDD3FD2A0756C900FB5535 /* Products */;
 			projectDirPath = "";
@@ -549,12 +588,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19F010912A2CB9E1000A7D21 /* GameCatalogRouter.swift in Sources */,
 				19DDD4472A075E0A00FB5535 /* GameCatalogResponse.swift in Sources */,
+				19F0108C2A2CB161000A7D21 /* GameCatalogUseCase.swift in Sources */,
 				19DDD4042A0756C900FB5535 /* GameCatalogViewController.swift in Sources */,
 				4DD471F92A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld in Sources */,
 				19DDD4502A07E92C00FB5535 /* DetailViewController.swift in Sources */,
 				19DDD43A2A0757F000FB5535 /* GameCatalogTableViewCell.swift in Sources */,
-				4DD471F62A0CB0E800D6466B /* WishlistLocalDataSource.swift in Sources */,
+				19F0108F2A2CB2DF000A7D21 /* GameCatalogPresenter.swift in Sources */,
+				4DD471F62A0CB0E800D6466B /* WishlistDefaultLocalDataSource.swift in Sources */,
 				199432AD2A2C877B00FE6E8C /* GameCatalogRepository.swift in Sources */,
 				19DDD4492A07D11F00FB5535 /* UIViewController+Extensions.swift in Sources */,
 				19DDD43E2A075A3B00FB5535 /* UIView+Extensions.swift in Sources */,
@@ -565,9 +607,14 @@
 				19DDD4542A086A5D00FB5535 /* String+Extensions.swift in Sources */,
 				19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */,
 				19DDD4002A0756C900FB5535 /* AppDelegate.swift in Sources */,
+				19F010832A2C9B66000A7D21 /* GameCatalogEntity.swift in Sources */,
 				19DDD4522A07EF2000FB5535 /* GameDetailResponse.swift in Sources */,
 				19DDD4022A0756C900FB5535 /* SceneDelegate.swift in Sources */,
-				19DDD4452A075E0200FB5535 /* GameCatalogRemoteDataSource.swift in Sources */,
+				19F010862A2C9C62000A7D21 /* GameTagsEntity.swift in Sources */,
+				19F010882A2C9D0D000A7D21 /* GameCatalogLocalDataSource.swift in Sources */,
+				19DDD4452A075E0200FB5535 /* GameCatalogDefaultRemoteDataSource.swift in Sources */,
+				19F0108A2A2CA50F000A7D21 /* GameCatalogMapper.swift in Sources */,
+				19F010932A2CC641000A7D21 /* GameCatalogInjection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -934,6 +981,14 @@
 				version = 4.2.0;
 			};
 		};
+		19F0107C2A2C9B31000A7D21 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 10.40.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -951,6 +1006,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 199432B92A2C8B0D00FE6E8C /* XCRemoteSwiftPackageReference "AlamofireImage" */;
 			productName = AlamofireImage;
+		};
+		19F0107D2A2C9B31000A7D21 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19F0107C2A2C9B31000A7D21 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		19F0107F2A2C9B31000A7D21 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19F0107C2A2C9B31000A7D21 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 

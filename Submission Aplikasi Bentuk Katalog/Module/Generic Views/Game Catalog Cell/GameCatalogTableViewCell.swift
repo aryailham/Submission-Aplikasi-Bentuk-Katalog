@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class GameCatalogTableViewCell: UITableViewCell {
     // MARK: - NIB
@@ -38,14 +39,10 @@ class GameCatalogTableViewCell: UITableViewCell {
         gameTitle.text = title
         gameRating.text = "Rating: \(rating)"
         gameReleaseDate.text = "Released: \(releaseDate)"
-        Task {
-//            DispatchQueue.global(qos: .userInteractive).async {
-            guard let image = try await ImageDownloader.shared.downloadImage(url: URL(string: image)!) else {return}
-                
-                DispatchQueue.main.async {
-                    self.gameImage.image = image
-                }
-//            }
+        if let url = URL(string: image) {
+            DispatchQueue.main.async {
+                self.gameImage.af.setImage(withURL: url)
+            }
         }
     }
     

@@ -8,7 +8,7 @@
 import Foundation
 import CoreData
 
-class WishlistLocalDataSource {
+class WishlistDefaultLocalDataSource {
     lazy var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "WishlistModel")
         container.loadPersistentStores { storeDescription, error in
@@ -19,7 +19,7 @@ class WishlistLocalDataSource {
         return container
     }()
     
-    static let shared = WishlistLocalDataSource()
+    static let shared = WishlistDefaultLocalDataSource()
     
     func getWishlistedGames(completion: @escaping ([Wishlist]) -> Void) {
         let managedContext = persistentContainer.viewContext
@@ -93,7 +93,7 @@ class WishlistLocalDataSource {
     }
 }
 
-extension WishlistLocalDataSource: GameDataFetcher {
+extension WishlistDefaultLocalDataSource: GameCatalogDetailRemoteDataSource {
     func getGameDetails(id: Int, completion: @escaping (Result<GameModel?, Error>) -> Void) {
         let managedContext = persistentContainer.viewContext
         
