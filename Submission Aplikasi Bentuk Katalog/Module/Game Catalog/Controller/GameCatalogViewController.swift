@@ -22,10 +22,11 @@ class GameCatalogViewController: UIViewController {
     }
     
     private func setupView() {
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+
         tableView.register(GameCatalogTableViewCell.nib, forCellReuseIdentifier: GameCatalogTableViewCell.ID)
         tableView.delegate = self
         tableView.dataSource = self
-        
     }
 }
 
