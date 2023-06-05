@@ -41,10 +41,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         let gameCatalogNavigationController = GameCatalogRouter.createModule()
         
+        let profileViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "profileViewController") as! ProfileViewController
+        let profileNavigationController = UINavigationController(rootViewController: profileViewController)
+        
         let tabBarController = UITabBarController()
         gameCatalogNavigationController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
+        profileNavigationController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), selectedImage: UIImage(systemName: "person.fill"))
         
-        tabBarController.viewControllers = [gameCatalogNavigationController]
+        tabBarController.viewControllers = [gameCatalogNavigationController, profileViewController]
         
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
