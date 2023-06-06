@@ -42,6 +42,10 @@
 		4D4EFF622A2D8A8700B308C8 /* WishlistDefaultLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF612A2D8A8700B308C8 /* WishlistDefaultLocalDataSource.swift */; };
 		4D4EFF642A2D8CB800B308C8 /* WishlistEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF632A2D8CB800B308C8 /* WishlistEntity.swift */; };
 		4D4EFF682A2DA73900B308C8 /* WishlistMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF672A2DA73900B308C8 /* WishlistMapper.swift */; };
+		4D4EFF6A2A2DBB2200B308C8 /* WishlistUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF692A2DBB2200B308C8 /* WishlistUseCase.swift */; };
+		4D4EFF722A2DBEE000B308C8 /* WishlistRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF712A2DBEE000B308C8 /* WishlistRouter.swift */; };
+		4D4EFF742A2DBEE800B308C8 /* WishlistPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF732A2DBEE800B308C8 /* WishlistPresenter.swift */; };
+		4D4EFF762A2DC8CB00B308C8 /* WishlistInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF752A2DC8CB00B308C8 /* WishlistInjection.swift */; };
 		4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */; };
 		4DD471F62A0CB0E800D6466B /* WishlistCoreDataLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F52A0CB0E800D6466B /* WishlistCoreDataLocalDataSource.swift */; };
 		4DD471F92A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F72A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld */; };
@@ -101,6 +105,10 @@
 		4D4EFF612A2D8A8700B308C8 /* WishlistDefaultLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistDefaultLocalDataSource.swift; sourceTree = "<group>"; };
 		4D4EFF632A2D8CB800B308C8 /* WishlistEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistEntity.swift; sourceTree = "<group>"; };
 		4D4EFF672A2DA73900B308C8 /* WishlistMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistMapper.swift; sourceTree = "<group>"; };
+		4D4EFF692A2DBB2200B308C8 /* WishlistUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistUseCase.swift; sourceTree = "<group>"; };
+		4D4EFF712A2DBEE000B308C8 /* WishlistRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistRouter.swift; sourceTree = "<group>"; };
+		4D4EFF732A2DBEE800B308C8 /* WishlistPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistPresenter.swift; sourceTree = "<group>"; };
+		4D4EFF752A2DC8CB00B308C8 /* WishlistInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistInjection.swift; sourceTree = "<group>"; };
 		4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
 		4DD471F52A0CB0E800D6466B /* WishlistCoreDataLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistCoreDataLocalDataSource.swift; sourceTree = "<group>"; };
 		4DD471F82A0CB15B00D6466B /* WishlistModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WishlistModel.xcdatamodel; sourceTree = "<group>"; };
@@ -160,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				19F010922A2CC641000A7D21 /* GameCatalogInjection.swift */,
+				4D4EFF752A2DC8CB00B308C8 /* WishlistInjection.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -177,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				19F0108B2A2CB161000A7D21 /* GameCatalogUseCase.swift */,
+				4D4EFF692A2DBB2200B308C8 /* WishlistUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -234,20 +244,6 @@
 				4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		199432C42A2C8BEF00FE6E8C /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		199432C52A2C8BF500FE6E8C /* Router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Router;
 			sourceTree = "<group>";
 		};
 		19DDD3F32A0756C900FB5535 = {
@@ -416,11 +412,27 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
+		4D4EFF6F2A2DBED100B308C8 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4D4EFF732A2DBEE800B308C8 /* WishlistPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4D4EFF702A2DBED700B308C8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4D4EFF712A2DBEE000B308C8 /* WishlistRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		4DD471F12A0CADA600D6466B /* Wishlist */ = {
 			isa = PBXGroup;
 			children = (
-				199432C52A2C8BF500FE6E8C /* Router */,
-				199432C42A2C8BEF00FE6E8C /* Presenter */,
+				4D4EFF702A2DBED700B308C8 /* Router */,
+				4D4EFF6F2A2DBED100B308C8 /* Presenter */,
 				199432C32A2C8BE400FE6E8C /* Controller */,
 			);
 			path = Wishlist;
@@ -612,10 +624,13 @@
 				19F0108F2A2CB2DF000A7D21 /* GameCatalogPresenter.swift in Sources */,
 				4DD471F62A0CB0E800D6466B /* WishlistCoreDataLocalDataSource.swift in Sources */,
 				4D4EFF682A2DA73900B308C8 /* WishlistMapper.swift in Sources */,
+				4D4EFF762A2DC8CB00B308C8 /* WishlistInjection.swift in Sources */,
 				199432AD2A2C877B00FE6E8C /* GameCatalogRepository.swift in Sources */,
 				19DDD4492A07D11F00FB5535 /* UIViewController+Extensions.swift in Sources */,
 				19DDD43E2A075A3B00FB5535 /* UIView+Extensions.swift in Sources */,
+				4D4EFF722A2DBEE000B308C8 /* WishlistRouter.swift in Sources */,
 				4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */,
+				4D4EFF6A2A2DBB2200B308C8 /* WishlistUseCase.swift in Sources */,
 				19DDD44E2A07E69700FB5535 /* ProfileViewController.swift in Sources */,
 				4DD471FC2A0D397700D6466B /* GameModel.swift in Sources */,
 				4D4EFF642A2D8CB800B308C8 /* WishlistEntity.swift in Sources */,
@@ -623,6 +638,7 @@
 				19DDD4542A086A5D00FB5535 /* String+Extensions.swift in Sources */,
 				19DDD44C2A07D6B000FB5535 /* ImageDownloader.swift in Sources */,
 				19DDD4002A0756C900FB5535 /* AppDelegate.swift in Sources */,
+				4D4EFF742A2DBEE800B308C8 /* WishlistPresenter.swift in Sources */,
 				19F010832A2C9B66000A7D21 /* GameCatalogEntity.swift in Sources */,
 				19DDD4522A07EF2000FB5535 /* GameDetailResponse.swift in Sources */,
 				19DDD4022A0756C900FB5535 /* SceneDelegate.swift in Sources */,
