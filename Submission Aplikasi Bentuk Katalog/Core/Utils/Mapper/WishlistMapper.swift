@@ -33,7 +33,7 @@ class WishlistMapper {
     }
     
     static func mapGameDomainModelToWishlistEntity(game: GameModel) -> WishlistEntity {
-        var wishlist = WishlistEntity()
+        let wishlist = WishlistEntity()
         wishlist.id = Int(game.id ?? 0)
         wishlist.name = game.name ?? ""
         wishlist.released = game.released ?? ""
@@ -45,7 +45,7 @@ class WishlistMapper {
         
         let set = Array(game.tags)
         set.forEach { tags in
-            var tagsEntity = GameTagsEntity()
+            let tagsEntity = GameTagsEntity()
             tagsEntity.id = Int64(tags.id ?? 0)
             tagsEntity.name = tags.name ?? ""
             wishlist.tags.append(tagsEntity)
