@@ -427,7 +427,7 @@
         <!--Wishlist-->
         <scene sceneID="iG0-cV-KGI">
             <objects>
-                <viewController storyboardIdentifier="WishlistViewController" id="jqv-XL-IL7" customClass="WishlistViewController" customModule="Submission_Aplikasi_Bentuk_Katalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="wishlistViewController" id="jqv-XL-IL7" customClass="WishlistViewController" customModule="Submission_Aplikasi_Bentuk_Katalog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wZM-kg-X3i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
