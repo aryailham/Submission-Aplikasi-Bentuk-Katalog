@@ -32,7 +32,7 @@ class DetailViewController: UIViewController {
     
     // MARK: - VARIABLES
     var gameFetcher: GameCatalogDetailRemoteDataSource?
-    var local = WishlistDefaultLocalDataSource.shared
+    var local = WishlistCoreDataLocalDataSource.shared
     var gameID: Int?
     var gameDetails: GameModel?
     
