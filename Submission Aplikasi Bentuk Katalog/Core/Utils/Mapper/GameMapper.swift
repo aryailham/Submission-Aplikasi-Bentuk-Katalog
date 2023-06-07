@@ -1,52 +1,80 @@
 //
-//  GameMapper.swift
+//  GameCatalogMapper.swift
 //  Submission Aplikasi Bentuk Katalog
 //
-//  Created by Arya Moehammad Ilham on 11/05/23.
+//  Created by Arya Ilham on 04/06/23.
 //
 
 import Foundation
 
 class GameMapper {
-    static func MapGameResponseToDomainModel(gameResponse: GameDetailsResponse) -> GameModel {
-        var gameModel = GameModel()
-        gameModel.id = gameResponse.id
-        gameModel.name = gameResponse.name
-        gameModel.released = gameResponse.released
-        gameModel.backgroundImage = gameResponse.backgroundImage
-        gameModel.rating = gameResponse.rating
-        gameModel.ratingTop = gameResponse.ratingTop
-        gameModel.metacritic = gameResponse.metacritic
-        gameModel.description = gameResponse.description
-        
-        gameResponse.tags.forEach { tags in
-            var tagsModel = TagsModel()
-            tagsModel.id = tags.id
-            tagsModel.name = tags.name
-            gameModel.tags.append(tagsModel)
+    static func mapGameCatalogResponsetoEntity(gameResponse: [GameDataResponse]) -> [GameCatalogEntity] {
+        return gameResponse.map { game in
+            var entity = GameCatalogEntity()
+            entity.id = Int64(game.id)
+            entity.name = game.name
+            entity.released = game.released
+            entity.backgroundImage = game.backgroundImage
+            entity.rating = game.rating
+            entity.ratingTop = Int16(game.ratingTop)
+            entity.metacritic = Int16(game.metacritic)
+            return entity
         }
-        return gameModel
     }
     
-    static func MapGameEntityToDomainModel(gameEntity: Wishlist) -> GameModel {
-        var gameModel = GameModel()
-        gameModel.id = Int(gameEntity.id)
-        gameModel.name = gameEntity.name
-        gameModel.released = gameEntity.released
-        gameModel.backgroundImage = gameEntity.backgroundImage
-        gameModel.rating = gameEntity.rating
-        gameModel.ratingTop = Int(gameEntity.ratingTop)
-        gameModel.metacritic = Int(gameEntity.metacritic)
-        gameModel.description = gameEntity.gameDescription
-        
-        let set = gameEntity.tags?.allObjects as! [GameTags]
-        set.forEach { tags in
-            var tagsModel = TagsModel()
-            tagsModel.id = Int(tags.id)
-            tagsModel.name = tags.name
-            gameModel.tags.append(tagsModel)
+    static func mapGameCatalogEntityToDomainModel(gameEntity: [GameCatalogEntity]) -> [GameModel] {
+        return gameEntity.map { entity in
+            var gameModel = GameModel()
+            gameModel.id = Int(entity.id)
+            gameModel.name = entity.name
+            gameModel.released = entity.released
+            gameModel.backgroundImage = entity.backgroundImage
+            gameModel.rating = entity.rating
+            gameModel.ratingTop = Int(entity.ratingTop)
+            gameModel.metacritic = Int(entity.metacritic)
+            return gameModel
         }
-        return gameModel
-
     }
+    
+    static func mapGameDetailResponsetoEntity(gameResponse: GameDetailsResponse) -> GameCatalogEntity {
+        var entity = GameCatalogEntity()
+        entity.id = Int64(gameResponse.id)
+        entity.name = gameResponse.name
+        entity.released = gameResponse.released
+        entity.backgroundImage = gameResponse.backgroundImage
+        entity.rating = gameResponse.rating
+        entity.ratingTop = Int16(gameResponse.ratingTop)
+        entity.metacritic = Int16(gameResponse.metacritic)
+        
+        gameResponse.tags.forEach { tags in
+            var tagsEntity = GameTagsEntity()
+            tagsEntity.id = Int64(tags.id)
+            tagsEntity.name = tags.name
+            entity.tags.append(tagsEntity)
+        }
+        
+        return entity
+    }
+    
+    static func mapGameDetailEntityToDomainModel(gameEntity: GameCatalogEntity) -> GameModel {
+        var model = GameModel()
+        model.id = Int(gameEntity.id)
+        model.name = gameEntity.name
+        model.released = gameEntity.released
+        model.backgroundImage = gameEntity.backgroundImage
+        model.rating = gameEntity.rating
+        model.ratingTop = Int(gameEntity.ratingTop)
+        model.metacritic = Int(gameEntity.metacritic)
+        
+        let set = Array(gameEntity.tags)
+        set.forEach { tags in
+            var tagsEntity = TagsModel()
+            tagsEntity.id = Int(tags.id)
+            tagsEntity.name = tags.name
+            model.tags.append(tagsEntity)
+        }
+        
+        return model
+    }
+
 }
