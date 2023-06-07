@@ -30,23 +30,9 @@ class GameCatalogDefaultRepository {
 
 extension GameCatalogDefaultRepository: GameCatalogRepository {
     func getGameCatalog() -> Observable<[GameModel]> {
-//        return self.remote.getGameCatalog()
-//            .map({ responses in
-//                GameCatalogMapper.mapGameCatalogResponsetoEntity(gameResponse: responses)
-//            })
-//            .map { entities in
-//                self.local.addData(from: entities)
-//            }
-//            .flatMap { _ in
-//                self.local.getData()
-//                    .map { entities in
-//                        GameCatalogMapper.mapGameCatalogEntityToDomainModel(gameEntity: entities)
-//                    }
-//            }
-        
         return self.remote.getGameCatalog()
             .map({ responses in
-                GameCatalogMapper.mapGameCatalogResponsetoEntity(gameResponse: responses)
+                GameMapper.mapGameCatalogResponsetoEntity(gameResponse: responses)
             })
             .flatMap { entities in
                 self.local.addData(from: entities)
@@ -54,7 +40,7 @@ extension GameCatalogDefaultRepository: GameCatalogRepository {
             .flatMap { _ in
                 self.local.getData()
                     .map { entities in
-                        GameCatalogMapper.mapGameCatalogEntityToDomainModel(gameEntity: entities)
+                        GameMapper.mapGameCatalogEntityToDomainModel(gameEntity: entities)
                     }
             }
 
