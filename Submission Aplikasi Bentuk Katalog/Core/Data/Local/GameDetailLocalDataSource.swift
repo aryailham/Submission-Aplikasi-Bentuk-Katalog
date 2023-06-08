@@ -13,7 +13,7 @@ protocol GameDetailLocalDataSource {
     func getGameDetailData(gameId: Int) -> Observable<GameCatalogEntity>
     func setGameDetailData(game: GameCatalogEntity) -> Observable<Bool>
     func storeNewWishlistedGames(wishlistedGame: WishlistEntity) -> Observable<Bool>
-    func removeWishlistedGames(gameId: Int)
+    func removeWishlistedGames(gameId: Int) -> Observable<Bool>
     func checkIfWishlisted(gameId: Int) -> Observable<Bool>
 }
 
@@ -51,6 +51,8 @@ extension GameDetailRealmLocalDataSource: GameDetailLocalDataSource {
                     try realm.write({
                         realm.add(game, update: .all)
                     })
+                    observer.onNext(true)
+                    observer.onCompleted()
                 } catch let error {
                     observer.onError(error)
                 }
@@ -66,6 +68,8 @@ extension GameDetailRealmLocalDataSource: GameDetailLocalDataSource {
                     try realm.write({
                         realm.add(wishlistedGame, update: .all)
                     })
+                    observer.onNext(true)
+                    observer.onCompleted()
                 } catch let error {
                     observer.onError(error)
                 }
@@ -74,17 +78,22 @@ extension GameDetailRealmLocalDataSource: GameDetailLocalDataSource {
         }
     }
     
-    func removeWishlistedGames(gameId: Int) {
-        if let realm = self.realm {
-            do {
-                try realm.write({
-                    if let objectToDelete = realm.object(ofType: WishlistEntity.self, forPrimaryKey: gameId) {
-                        realm.delete(objectToDelete)
-                    }
-                })
-            } catch let error {
-                print("remove wishlist error: \(error.localizedDescription)")
+    func removeWishlistedGames(gameId: Int) -> Observable<Bool> {
+        return Observable<Bool>.create { observer in
+            if let realm = self.realm {
+                do {
+                    try realm.write({
+                        if let objectToDelete = realm.object(ofType: WishlistEntity.self, forPrimaryKey: gameId) {
+                            realm.delete(objectToDelete)
+                        }
+                    })
+                    observer.onNext(true)
+                    observer.onCompleted()
+                } catch let error {
+                    observer.onError(error)
+                }
             }
+            return Disposables.create()
         }
     }
     
