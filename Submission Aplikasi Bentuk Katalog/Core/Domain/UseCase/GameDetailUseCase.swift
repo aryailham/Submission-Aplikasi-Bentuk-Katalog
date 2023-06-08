@@ -11,7 +11,7 @@ import RxSwift
 protocol GameDetailUseCase {
     func getGameDetailData(gameId: Int) -> Observable<GameModel>
     func storeNewWishlistedGames(wishlistedGame: GameModel) -> Observable<Bool>
-    func removeWishlistedGames(gameId: Int)
+    func removeWishlistedGames(gameId: Int) -> Observable<Bool>
     func checkIfWishlisted(gameId: Int) -> Observable<Bool>
 }
 
@@ -22,19 +22,19 @@ class GameDetailDefaultInteractor: GameDetailUseCase {
         self.repository = repository
     }
     
-    func getGameDetailData(gameId: Int) -> RxSwift.Observable<GameModel> {
+    func getGameDetailData(gameId: Int) -> Observable<GameModel> {
         return self.repository.getGameDetailData(gameId: gameId)
     }
     
-    func storeNewWishlistedGames(wishlistedGame: GameModel) -> RxSwift.Observable<Bool> {
+    func storeNewWishlistedGames(wishlistedGame: GameModel) -> Observable<Bool> {
         return self.repository.storeNewWishlistedGames(wishlistedGame: wishlistedGame)
     }
     
-    func removeWishlistedGames(gameId: Int) {
-        self.repository.removeWishlistedGames(gameId: gameId)
+    func removeWishlistedGames(gameId: Int) -> Observable<Bool> {
+        return self.repository.removeWishlistedGames(gameId: gameId)
     }
     
-    func checkIfWishlisted(gameId: Int) -> RxSwift.Observable<Bool> {
+    func checkIfWishlisted(gameId: Int) -> Observable<Bool> {
         self.repository.checkIfWishlisted(gameId: gameId)
     }
 }
