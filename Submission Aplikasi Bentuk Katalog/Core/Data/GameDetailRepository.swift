@@ -11,7 +11,7 @@ import RxSwift
 protocol GameDetailRepository {
     func getGameDetailData(gameId: Int) -> Observable<GameModel>
     func storeNewWishlistedGames(wishlistedGame: GameModel) -> Observable<Bool>
-    func removeWishlistedGames(gameId: Int)
+    func removeWishlistedGames(gameId: Int) -> Observable<Bool>
     func checkIfWishlisted(gameId: Int) -> Observable<Bool>
 }
 
@@ -37,7 +37,7 @@ extension GameDetailDefaultRepository: GameDetailRepository {
             .map { gameDetailResponse in
                 GameMapper.mapGameDetailResponsetoEntity(gameResponse: gameDetailResponse)
             }
-            .map { gameEntity in
+            .flatMap { gameEntity in
                 self.local.setGameDetailData(game: gameEntity)
             }
             .flatMap { _ in
@@ -52,8 +52,8 @@ extension GameDetailDefaultRepository: GameDetailRepository {
         return self.local.storeNewWishlistedGames(wishlistedGame: wishlistEntity)
     }
     
-    func removeWishlistedGames(gameId: Int) {
-        self.local.removeWishlistedGames(gameId: gameId)
+    func removeWishlistedGames(gameId: Int) -> Observable<Bool> {
+        return self.local.removeWishlistedGames(gameId: gameId)
     }
     
     func checkIfWishlisted(gameId: Int) -> Observable<Bool> {
