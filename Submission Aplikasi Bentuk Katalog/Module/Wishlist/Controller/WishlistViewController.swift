@@ -10,10 +10,7 @@ import UIKit
 class WishlistViewController: UIViewController {
     // MARK: - IBOUTLETS
     @IBOutlet weak var tableView: UITableView!
-    
-    private let local = WishlistCoreDataLocalDataSource()
-    private var wishlist: [Wishlist] = []
-    
+        
     var presenter: WishlistPresenter?
     
     override func viewDidLoad() {
@@ -55,9 +52,6 @@ extension WishlistViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-//        vc.gameID = Int(wishlist[indexPath.row].id)
-//        vc.gameFetcher = WishlistCoreDataLocalDataSource.shared
-//        self.navigationController?.pushViewController(vc, animated: true)
+        self.presenter?.goToDetailPage(index: indexPath.row)
     }
 }
