@@ -45,6 +45,7 @@ class GameMapper {
         entity.rating = gameResponse.rating
         entity.ratingTop = Int16(gameResponse.ratingTop)
         entity.metacritic = Int16(gameResponse.metacritic)
+        entity.gameDescription = gameResponse.description
         
         gameResponse.tags.forEach { tags in
             var tagsEntity = GameTagsEntity()
@@ -65,6 +66,7 @@ class GameMapper {
         model.rating = gameEntity.rating
         model.ratingTop = Int(gameEntity.ratingTop)
         model.metacritic = Int(gameEntity.metacritic)
+        model.description = gameEntity.gameDescription
         
         let set = Array(gameEntity.tags)
         set.forEach { tags in
