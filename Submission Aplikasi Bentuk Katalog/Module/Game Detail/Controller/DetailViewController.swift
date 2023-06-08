@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class DetailViewController: UIViewController {
     // MARK: - IBOUTLET
@@ -31,72 +32,32 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var wishlistView: UIView!
     
     // MARK: - VARIABLES
-    var gameFetcher: GameCatalogDetailRemoteDataSource?
-    var local = WishlistCoreDataLocalDataSource.shared
-    var gameID: Int?
-    var gameDetails: GameModel?
-    
-    var oldWishlistValue: Bool = false
-    var isWishlisted: Bool = false
-    
-    let wishlistThread = DispatchQueue(label: "wishlistThread", attributes: .concurrent)
+    var presenter: GameDetailPresenter?
     
     // MARK: - FUNCTIONS
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        getDetails()
-        if let id = gameID {
-            wishlistThread.async(flags: .barrier) { [self] in
-                oldWishlistValue = local.checkIfWishlisted(gameID: id)
-                switch oldWishlistValue {
-                case true:
-                    setWishlisted()
-                case false:
-                    setUnwishlisted()
-                }
-                
-            }
-        }
+        presenter?.viewDidLoad()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        if oldWishlistValue != isWishlisted {
-            wishlistThread.sync { [self] in
-                switch isWishlisted {
-                    case true:
-                    guard let game = gameDetails else { return }
-                    local.storeNewWishlist(game: game)
-                    case false:
-                    guard let id = gameDetails?.id else { return }
-                    local.removeWishlistedGame(gameID: id)
-                    break
-                }
-
-            }
-        }
+        presenter?.setWishlistStatus()
     }
     
     @IBAction func wishlistTapped(_ sender: UIButton) {
-        switch isWishlisted {
-            case true:
-            setUnwishlisted()
-            case false:
-            setWishlisted()
-        }
+        presenter?.changeWishlistStatus()
     }
     
-    private func setWishlisted() {
+    func setWishlisted() {
         DispatchQueue.main.async { [self] in
-            self.isWishlisted = true
             wishlistImage.image = UIImage(systemName: "heart.fill")
             wishlistImage.tintColor = .red
         }
     }
     
-    private func setUnwishlisted() {
+    func setUnwishlisted() {
         DispatchQueue.main.async { [self] in
-            self.isWishlisted = false
             wishlistImage.image = UIImage(systemName: "heart")
             wishlistImage.tintColor = .gray
         }
@@ -115,11 +76,10 @@ class DetailViewController: UIViewController {
         wishlistView.layer.cornerRadius = wishlistView.bounds.height / 2
     }
     
-    private func renderData() {
-        guard let details = gameDetails else {return}
-        Task {
-            let image = try await ImageDownloader.shared.downloadImage(url: URL(string: details.backgroundImage ?? "")!)
-            self.gameImage.image = image
+    func renderData() {
+        guard let details = presenter?.game else {return}
+        if let url = URL(string: details.backgroundImage ?? "") {
+            self.gameImage.af.setImage(withURL: url)
         }
         self.releaseDate.text = "Released: \(details.released ?? "Not Yet")"
         self.gameTitle.text = details.name
@@ -139,19 +99,4 @@ class DetailViewController: UIViewController {
         }
     }
     
-    private func getDetails() {
-        guard let id = gameID else {return}
-        gameFetcher?.getGameDetails(id: id) { [weak self] result in
-            guard let self = self else {return}
-            switch result {
-            case .success(let success):
-                self.gameDetails = success
-                DispatchQueue.main.async {
-                    self.renderData()
-                }
-            case .failure(let failure):
-                self.showErrorMessage(message: failure.localizedDescription)
-            }
-        }
-    }
 }
