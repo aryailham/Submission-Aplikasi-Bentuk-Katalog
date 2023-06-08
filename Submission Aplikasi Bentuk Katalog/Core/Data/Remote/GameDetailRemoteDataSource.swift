@@ -14,7 +14,7 @@ protocol GameDetailRemoteDataSource {
 }
 
 class GameDetailDefaultRemoteDataSource {
-    static let shared: GameCatalogRemoteDataSource = GameCatalogDefaultRemoteDataSource()
+    static let shared: GameDetailRemoteDataSource = GameDetailDefaultRemoteDataSource()
     
     private let API_KEY = "15bfabf3309c4dcfbfb75622a6daf2aa"
     private let GET_GAME_DETAILS = "https://api.rawg.io/api/games/%d"
@@ -23,7 +23,7 @@ class GameDetailDefaultRemoteDataSource {
 extension GameDetailDefaultRemoteDataSource: GameDetailRemoteDataSource {
     func getGameDetails(id: Int) -> Observable<GameDetailsResponse> {
         return Observable<GameDetailsResponse>.create { observer in
-            if let url = URL(string: self.GET_GAME_DETAILS) {
+            if let url = URL(string: String(format: self.GET_GAME_DETAILS, id)) {
                 let parameters: Parameters = [
                     "key": self.API_KEY
                 ]
