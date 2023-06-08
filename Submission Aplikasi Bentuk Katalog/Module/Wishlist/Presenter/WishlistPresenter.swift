@@ -47,6 +47,7 @@ class WishlistDefaultPresenter: WishlistPresenter {
     }
     
     func goToDetailPage(index: Int) {
-        
+        guard let gameId = wishlist[index].id else {return}
+        self.router.goToDetailGamePage(gameID: gameId, controller: self.view)
     }
 }

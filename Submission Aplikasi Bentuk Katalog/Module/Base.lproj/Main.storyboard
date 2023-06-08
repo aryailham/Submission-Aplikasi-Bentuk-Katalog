@@ -43,7 +43,7 @@
         <!--Game-->
         <scene sceneID="4H7-Iu-wrI">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController" title="Game" id="2my-F1-3QL" customClass="DetailViewController" customModule="Submission_Aplikasi_Bentuk_Katalog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailViewController" title="Game" id="2my-F1-3QL" customClass="DetailViewController" customModule="Submission_Aplikasi_Bentuk_Katalog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zZq-49-ETO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

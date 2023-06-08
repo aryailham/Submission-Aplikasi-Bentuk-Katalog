@@ -18,9 +18,7 @@ class GameCatalogRouter {
     }
     
     func goToDetailGamePage(gameID: Int, controller: UIViewController) {
-        //        let vc = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
-        //        vc.gameID = gameCatalog[indexPath.row].id
-        //        vc.gameFetcher = GameCatalogDefaultRemoteDataSource.shared
-        //        self.navigationController?.pushViewController(vc, animated: true)
+        let targetController = GameDetailRouter.createModule(gameId: gameID)
+        controller.navigationController?.pushViewController(targetController, animated: true)
     }
 }

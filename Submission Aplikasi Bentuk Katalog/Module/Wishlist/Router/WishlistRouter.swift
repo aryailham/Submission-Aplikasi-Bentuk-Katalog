@@ -17,4 +17,9 @@ final class WishlistRouter {
         
         return UINavigationController(rootViewController: controller)
     }
+    
+    func goToDetailGamePage(gameID: Int, controller: UIViewController) {
+        let targetController = GameDetailRouter.createModule(gameId: gameID)
+        controller.navigationController?.pushViewController(targetController, animated: true)
+    }
 }
