@@ -11,8 +11,8 @@ workflows:
       - name: Run tests
         script: |
           xcode-project run-tests \
-          --project ${XCODE_PROJECT?} \
-          --scheme ${XCODE_SCHEME?} \
+          --project "${XCODE_PROJECT?}" \
+          --scheme "${XCODE_SCHEME?}" \
           --device "iPhone 12"
       - name: Build debug app
         script: |
