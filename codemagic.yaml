@@ -8,12 +8,14 @@ workflows:
           XCODE_PROJECT: "Submission Aplikasi Bentuk Katalog.xcodeproj" # Isikan nama project Anda.
           XCODE_SCHEME: "Submission Aplikasi Bentuk Katalog" # Isikan nama scheme project Anda.
     scripts:
-      - name: iOS test
-        script: | 
-          xcode-project run-tests \
-          --workspace "Submission Aplikasi Bentuk Katalog.xcodeproj" \
-          --scheme "Submission Aplikasi Bentuk Katalog" \
-          --device "iPhone 12"
+      - name: Run tests
+        script: |
+          xcodebuild \
+          -project "$XCODE_PROJECT" \
+          -scheme "$XCODE_SCHEME" \
+          -sdk iphonesimulator \
+          -destination 'platform=iOS Simulator,name=iPhone 12,OS=16.1' \
+          clean build test CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
       - name: Build debug app
         script: |
           xcodebuild build -project "$XCODE_PROJECT" \
