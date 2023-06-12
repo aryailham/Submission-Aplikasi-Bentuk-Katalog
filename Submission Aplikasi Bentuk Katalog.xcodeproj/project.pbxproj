@@ -236,6 +236,7 @@
 				19DDD3FE2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog */,
 				4D9E1DFC2A36D19100271C5D /* Submission Aplikasi Bentuk KatalogvTests */,
 				19DDD3FD2A0756C900FB5535 /* Products */,
+				4D9E1E082A36E44A00271C5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -453,6 +454,13 @@
 				4D9E1E062A36D1CF00271C5D /* GameCatalogTests.swift */,
 			);
 			path = GameCatalog;
+			sourceTree = "<group>";
+		};
+		4D9E1E082A36E44A00271C5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4DD471F12A0CADA600D6466B /* Wishlist */ = {
@@ -810,7 +818,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 282R274LXF;
+				DEVELOPMENT_TEAM = Y26TNAGQ4F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Submission Aplikasi Bentuk Katalog/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -839,7 +847,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 282R274LXF;
+				DEVELOPMENT_TEAM = Y26TNAGQ4F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Submission Aplikasi Bentuk Katalog/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -874,8 +882,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arya.Submission-Aplikasi-Bentuk-KatalogvTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -896,8 +904,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arya.Submission-Aplikasi-Bentuk-KatalogvTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
