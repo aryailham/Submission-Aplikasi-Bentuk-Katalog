@@ -14,7 +14,6 @@ workflows:
           --workspace "Submission Aplikasi Bentuk Katalog.xcodeproj" \
           --scheme "Submission Aplikasi Bentuk Katalog" \
           --device "iPhone 12"
-        test_report: build/ios/test/*.xml
       - name: Build debug app
         script: |
           xcodebuild build -project "$XCODE_PROJECT" \
