@@ -54,6 +54,10 @@
 		4D9E1DF22A30659800271C5D /* GameDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1DF12A30659800271C5D /* GameDetailPresenter.swift */; };
 		4D9E1DF52A3184B000271C5D /* GameDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1DF42A3184B000271C5D /* GameDetailRouter.swift */; };
 		4D9E1E072A36D1CF00271C5D /* GameCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1E062A36D1CF00271C5D /* GameCatalogTests.swift */; };
+		4D9E1E0A2A37082100271C5D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D9E1E092A37082100271C5D /* RxSwift */; };
+		4D9E1E0C2A37082700271C5D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4D9E1E0B2A37082700271C5D /* Alamofire */; };
+		4D9E1E0E2A37083D00271C5D /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4D9E1E0D2A37083D00271C5D /* Realm */; };
+		4D9E1E102A37084400271C5D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D9E1E0F2A37084400271C5D /* RealmSwift */; };
 		4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */; };
 		4DD471F92A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F72A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld */; };
 		4DD471FC2A0D397700D6466B /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471FB2A0D397700D6466B /* GameModel.swift */; };
@@ -137,6 +141,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9E1E102A37084400271C5D /* RealmSwift in Frameworks */,
+				4D9E1E0E2A37083D00271C5D /* Realm in Frameworks */,
+				4D9E1E0A2A37082100271C5D /* RxSwift in Frameworks */,
+				4D9E1E0C2A37082700271C5D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +550,12 @@
 				4D9E1E002A36D19100271C5D /* PBXTargetDependency */,
 			);
 			name = "Submission Aplikasi Bentuk KatalogvTests";
+			packageProductDependencies = (
+				4D9E1E092A37082100271C5D /* RxSwift */,
+				4D9E1E0B2A37082700271C5D /* Alamofire */,
+				4D9E1E0D2A37083D00271C5D /* Realm */,
+				4D9E1E0F2A37084400271C5D /* RealmSwift */,
+			);
 			productName = "Submission Aplikasi Bentuk KatalogvTests";
 			productReference = 4D9E1DFB2A36D19100271C5D /* Submission Aplikasi Bentuk KatalogvTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -818,7 +832,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Y26TNAGQ4F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Submission Aplikasi Bentuk Katalog/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -847,7 +861,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Y26TNAGQ4F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Submission Aplikasi Bentuk Katalog/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -876,6 +890,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
@@ -898,6 +913,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
+				ENABLE_ON_DEMAND_RESOURCES = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
@@ -1002,6 +1018,26 @@
 			productName = Realm;
 		};
 		19F0107F2A2C9B31000A7D21 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19F0107C2A2C9B31000A7D21 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		4D9E1E092A37082100271C5D /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 199432B32A2C8AB400FE6E8C /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		4D9E1E0B2A37082700271C5D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 199432B62A2C8AF500FE6E8C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		4D9E1E0D2A37083D00271C5D /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19F0107C2A2C9B31000A7D21 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		4D9E1E0F2A37084400271C5D /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 19F0107C2A2C9B31000A7D21 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
