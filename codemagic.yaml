@@ -5,8 +5,8 @@ workflows:
       xcode: latest
       cocoapods: default
       vars:
-          XCODE_PROJECT: "Submission-Aplikasi-Bentuk-Katalog.xcodeproj" # Isikan nama project Anda.
-          XCODE_SCHEME: "Submission-Aplikasi-Bentuk-Katalog" # Isikan nama scheme project Anda.
+          XCODE_PROJECT: "Submission Aplikasi Bentuk Katalog.xcodeproj" # Isikan nama project Anda.
+          XCODE_SCHEME: "Submission Aplikasi Bentuk Katalog" # Isikan nama scheme project Anda.
     scripts:
       - name: Run tests
         script: |
