@@ -9,7 +9,12 @@ workflows:
     scripts:
       - name: iOS test
         script: |
-          swift test --enable-code-coverage
+          xcodebuild test \
+            -project "Submission Aplikasi Bentuk Katalog.xcodeproj" \
+            -scheme "Submission Aplikasi Bentuk Katalog" \
+            -sdk iphonesimulator \
+            -destination "platform=iOS Simulator,name=iPhone 12 Pro Max,OS=latest" \
+            -resultBundlePath TestResults      
       - name: Build debug app
         script: |
           xcodebuild build -project "$XCODE_PROJECT" \
