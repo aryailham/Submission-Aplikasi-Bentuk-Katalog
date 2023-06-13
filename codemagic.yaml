@@ -2,7 +2,7 @@ workflows:
   ios-project-debug: # workflow ID
     name: iOS debug # workflow name
     environment:
-      xcode: 14.1.0
+      xcode: latest
       vars:
           XCODE_PROJECT: "Submission Aplikasi Bentuk Katalog.xcodeproj" # Isikan nama project Anda.
           XCODE_SCHEME: "Submission Aplikasi Bentuk Katalog" # Isikan nama scheme project Anda.
