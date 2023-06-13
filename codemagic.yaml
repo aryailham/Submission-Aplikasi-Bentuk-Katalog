@@ -7,9 +7,6 @@ workflows:
           XCODE_PROJECT: "Submission Aplikasi Bentuk Katalog.xcodeproj" # Isikan nama project Anda.
           XCODE_SCHEME: "Submission Aplikasi Bentuk Katalog" # Isikan nama scheme project Anda.
     scripts:
-      - name: Build project
-        script: |
-          swift build
       - name: iOS test
         script: |
           swift test --enable-code-coverage
