@@ -19,7 +19,7 @@ final class GameCatalogTests: XCTestCase {
     }
     
     func testMock() throws {
-        XCTAssert(true)
+        XCTAssertTrue(false)
     }
 
 }
