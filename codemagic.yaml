@@ -14,7 +14,8 @@ workflows:
             -scheme "Submission Aplikasi Bentuk Katalog" \
             -sdk iphonesimulator \
             -destination "platform=iOS Simulator,name=iPhone 12 Pro Max,OS=latest" \
-            -resultBundlePath TestResults      
+            -resultBundlePath TestResults  
+            -allowProvisioningUpdates
       - name: Build debug app
         script: |
           xcodebuild build -project "$XCODE_PROJECT" \
