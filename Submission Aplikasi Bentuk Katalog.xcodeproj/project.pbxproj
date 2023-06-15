@@ -61,6 +61,8 @@
 		4D9E1E142A3709CE00271C5D /* GameCatalogMocknteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1E132A3709CE00271C5D /* GameCatalogMocknteractor.swift */; };
 		4D9E1E182A37115B00271C5D /* GameDetailMockInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1E172A37115A00271C5D /* GameDetailMockInteractor.swift */; };
 		4D9E1E1A2A37116E00271C5D /* GameDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1E192A37116E00271C5D /* GameDetailTests.swift */; };
+		4DBCFBF12A3AE2CF007D4495 /* WishlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCFBF02A3AE2CF007D4495 /* WishlistTests.swift */; };
+		4DBCFBF42A3AE538007D4495 /* WishlistMockInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCFBF32A3AE538007D4495 /* WishlistMockInteractor.swift */; };
 		4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */; };
 		4DD471F92A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F72A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld */; };
 		4DD471FC2A0D397700D6466B /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471FB2A0D397700D6466B /* GameModel.swift */; };
@@ -125,6 +127,8 @@
 		4D9E1E132A3709CE00271C5D /* GameCatalogMocknteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogMocknteractor.swift; sourceTree = "<group>"; };
 		4D9E1E172A37115A00271C5D /* GameDetailMockInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailMockInteractor.swift; sourceTree = "<group>"; };
 		4D9E1E192A37116E00271C5D /* GameDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailTests.swift; sourceTree = "<group>"; };
+		4DBCFBF02A3AE2CF007D4495 /* WishlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistTests.swift; sourceTree = "<group>"; };
+		4DBCFBF32A3AE538007D4495 /* WishlistMockInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistMockInteractor.swift; sourceTree = "<group>"; };
 		4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
 		4DD471F82A0CB15B00D6466B /* WishlistModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WishlistModel.xcdatamodel; sourceTree = "<group>"; };
 		4DD471FB2A0D397700D6466B /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
@@ -457,6 +461,7 @@
 		4D9E1E042A36D1A600271C5D /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				4DBCFBEF2A3AE2BF007D4495 /* Wishlist */,
 				4D9E1E152A37112E00271C5D /* GameDetail */,
 				4D9E1E052A36D1AB00271C5D /* GameCatalog */,
 			);
@@ -500,6 +505,23 @@
 			isa = PBXGroup;
 			children = (
 				4D9E1E172A37115A00271C5D /* GameDetailMockInteractor.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		4DBCFBEF2A3AE2BF007D4495 /* Wishlist */ = {
+			isa = PBXGroup;
+			children = (
+				4DBCFBF22A3AE52A007D4495 /* Mock */,
+				4DBCFBF02A3AE2CF007D4495 /* WishlistTests.swift */,
+			);
+			path = Wishlist;
+			sourceTree = "<group>";
+		};
+		4DBCFBF22A3AE52A007D4495 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				4DBCFBF32A3AE538007D4495 /* WishlistMockInteractor.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -710,10 +732,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBCFBF12A3AE2CF007D4495 /* WishlistTests.swift in Sources */,
 				4D9E1E1A2A37116E00271C5D /* GameDetailTests.swift in Sources */,
 				4D9E1E142A3709CE00271C5D /* GameCatalogMocknteractor.swift in Sources */,
 				4D9E1E072A36D1CF00271C5D /* GameCatalogTests.swift in Sources */,
 				4D9E1E182A37115B00271C5D /* GameDetailMockInteractor.swift in Sources */,
+				4DBCFBF42A3AE538007D4495 /* WishlistMockInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
