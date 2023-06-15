@@ -9,17 +9,23 @@ import XCTest
 @testable import Submission_Aplikasi_Bentuk_Katalog
 
 final class GameCatalogTests: XCTestCase {
+    func testGameCatalogEmpty() throws {
+        let interactor = GameCatalogEmptyMockInteractor()
+        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "gameCatalogViewController") as! GameCatalogViewController
+        let presenter = GameCatalogDefaultPresenter(view: controller, interactor: interactor)
+        controller.loadView()
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        presenter.getGameCatalog()
+        XCTAssertEqual(presenter.gameCatalog.count, 0)
     }
     
-    func testMock() throws {
-        XCTAssert(true)
+    func testGameCatalogHasData() throws {
+        let interactor = GameCatalogHasDataMockInteractor()
+        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "gameCatalogViewController") as! GameCatalogViewController
+        let presenter = GameCatalogDefaultPresenter(view: controller, interactor: interactor)
+        controller.loadView()
+        
+        presenter.getGameCatalog()
+        XCTAssertNotEqual(presenter.gameCatalog.count, 0)
     }
-
 }
