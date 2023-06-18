@@ -1,0 +1,6 @@
+framework module Pods_Submission_Aplikasi_Bentuk_KatalogvTests {
+  umbrella header "Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

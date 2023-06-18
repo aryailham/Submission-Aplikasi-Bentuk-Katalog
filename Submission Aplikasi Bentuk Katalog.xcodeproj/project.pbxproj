@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,6 +38,7 @@
 		19F0108F2A2CB2DF000A7D21 /* GameCatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F0108E2A2CB2DF000A7D21 /* GameCatalogPresenter.swift */; };
 		19F010912A2CB9E1000A7D21 /* GameCatalogRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010902A2CB9E1000A7D21 /* GameCatalogRouter.swift */; };
 		19F010932A2CC641000A7D21 /* GameCatalogInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010922A2CC641000A7D21 /* GameCatalogInjection.swift */; };
+		21DD8F03AFD095A826F8B9FC /* Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5498AE1A7F1CCD09ADFE728C /* Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework */; };
 		4D4EFF602A2D89D000B308C8 /* WishlistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF5F2A2D89CF00B308C8 /* WishlistRepository.swift */; };
 		4D4EFF622A2D8A8700B308C8 /* WishlistLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF612A2D8A8700B308C8 /* WishlistLocalDataSource.swift */; };
 		4D4EFF642A2D8CB800B308C8 /* WishlistEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF632A2D8CB800B308C8 /* WishlistEntity.swift */; };
@@ -66,6 +67,7 @@
 		4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */; };
 		4DD471F92A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F72A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld */; };
 		4DD471FC2A0D397700D6466B /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471FB2A0D397700D6466B /* GameModel.swift */; };
+		FFA3FDC83867EF5567ED2DFD /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09C0CD79E9ED9E1826F78B1 /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		129010825860FEB127CC7DF0 /* Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig"; path = "Target Support Files/Pods-Submission Aplikasi Bentuk KatalogvTests/Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig"; sourceTree = "<group>"; };
 		199432AC2A2C877B00FE6E8C /* GameCatalogRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogRepository.swift; sourceTree = "<group>"; };
 		19DDD3FC2A0756C900FB5535 /* Submission Aplikasi Bentuk Katalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Submission Aplikasi Bentuk Katalog.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19DDD3FF2A0756C900FB5535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		19F0108E2A2CB2DF000A7D21 /* GameCatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogPresenter.swift; sourceTree = "<group>"; };
 		19F010902A2CB9E1000A7D21 /* GameCatalogRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogRouter.swift; sourceTree = "<group>"; };
 		19F010922A2CC641000A7D21 /* GameCatalogInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogInjection.swift; sourceTree = "<group>"; };
+		41395C944823C20E014E776A /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig"; path = "Target Support Files/Pods-Submission Aplikasi Bentuk KatalogvTests/Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D4EFF5F2A2D89CF00B308C8 /* WishlistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistRepository.swift; sourceTree = "<group>"; };
 		4D4EFF612A2D8A8700B308C8 /* WishlistLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistLocalDataSource.swift; sourceTree = "<group>"; };
 		4D4EFF632A2D8CB800B308C8 /* WishlistEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistEntity.swift; sourceTree = "<group>"; };
@@ -132,6 +136,10 @@
 		4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
 		4DD471F82A0CB15B00D6466B /* WishlistModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WishlistModel.xcdatamodel; sourceTree = "<group>"; };
 		4DD471FB2A0D397700D6466B /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		5498AE1A7F1CCD09ADFE728C /* Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09C0CD79E9ED9E1826F78B1 /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Submission_Aplikasi_Bentuk_Katalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC595785DD6C741235056828 /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig"; path = "Target Support Files/Pods-Submission Aplikasi Bentuk Katalog/Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig"; sourceTree = "<group>"; };
+		E30F3159A9487A16EE5A005D /* Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig"; path = "Target Support Files/Pods-Submission Aplikasi Bentuk Katalog/Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,7 @@
 				19F0107E2A2C9B31000A7D21 /* Realm in Frameworks */,
 				19F010802A2C9B31000A7D21 /* RealmSwift in Frameworks */,
 				199432BB2A2C8B0D00FE6E8C /* AlamofireImage in Frameworks */,
+				FFA3FDC83867EF5567ED2DFD /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +164,7 @@
 				4D9E1E0E2A37083D00271C5D /* Realm in Frameworks */,
 				4D9E1E0A2A37082100271C5D /* RxSwift in Frameworks */,
 				4D9E1E0C2A37082700271C5D /* Alamofire in Frameworks */,
+				21DD8F03AFD095A826F8B9FC /* Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +265,7 @@
 				4D9E1DFC2A36D19100271C5D /* Submission Aplikasi Bentuk KatalogvTests */,
 				19DDD3FD2A0756C900FB5535 /* Products */,
 				4D9E1E082A36E44A00271C5D /* Frameworks */,
+				A92CD0D518E0C830D21DA3F3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -480,6 +491,8 @@
 		4D9E1E082A36E44A00271C5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B09C0CD79E9ED9E1826F78B1 /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework */,
+				5498AE1A7F1CCD09ADFE728C /* Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -564,6 +577,18 @@
 			path = Mapper;
 			sourceTree = "<group>";
 		};
+		A92CD0D518E0C830D21DA3F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC595785DD6C741235056828 /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */,
+				E30F3159A9487A16EE5A005D /* Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig */,
+				129010825860FEB127CC7DF0 /* Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig */,
+				41395C944823C20E014E776A /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -571,6 +596,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19DDD4262A0756CB00FB5535 /* Build configuration list for PBXNativeTarget "Submission Aplikasi Bentuk Katalog" */;
 			buildPhases = (
+				BD672AA664E1F556C2597645 /* [CP] Check Pods Manifest.lock */,
 				19DDD3F82A0756C900FB5535 /* Sources */,
 				19DDD3F92A0756C900FB5535 /* Frameworks */,
 				19DDD3FA2A0756C900FB5535 /* Resources */,
@@ -595,6 +621,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D9E1E012A36D19200271C5D /* Build configuration list for PBXNativeTarget "Submission Aplikasi Bentuk KatalogvTests" */;
 			buildPhases = (
+				8178A196A5A9D3067514E773 /* [CP] Check Pods Manifest.lock */,
 				4D9E1DF72A36D19100271C5D /* Sources */,
 				4D9E1DF82A36D19100271C5D /* Frameworks */,
 				4D9E1DF92A36D19100271C5D /* Resources */,
@@ -635,7 +662,7 @@
 				};
 			};
 			buildConfigurationList = 19DDD3F72A0756C900FB5535 /* Build configuration list for PBXProject "Submission Aplikasi Bentuk Katalog" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -679,6 +706,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8178A196A5A9D3067514E773 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Submission Aplikasi Bentuk KatalogvTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD672AA664E1F556C2597645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Submission Aplikasi Bentuk Katalog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19DDD3F82A0756C900FB5535 /* Sources */ = {
@@ -887,6 +961,7 @@
 		};
 		19DDD4272A0756CB00FB5535 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC595785DD6C741235056828 /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -916,6 +991,7 @@
 		};
 		19DDD4282A0756CB00FB5535 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30F3159A9487A16EE5A005D /* Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -945,6 +1021,7 @@
 		};
 		4D9E1E022A36D19200271C5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129010825860FEB127CC7DF0 /* Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -968,6 +1045,7 @@
 		};
 		4D9E1E032A36D19200271C5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41395C944823C20E014E776A /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
