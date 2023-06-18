@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Common
 
 class WishlistViewController: UIViewController {
     // MARK: - IBOUTLETS

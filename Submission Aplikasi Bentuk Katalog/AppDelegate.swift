@@ -7,6 +7,7 @@
 
 import UIKit
 import RealmSwift
+import GameWishlist
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

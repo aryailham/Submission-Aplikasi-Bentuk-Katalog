@@ -14,3 +14,7 @@ end
 target 'GameWishlist' do
   project '../GameWishlist/GameWishlist'
 end
+
+target 'Common' do
+  project '../Common/Common'
+end
