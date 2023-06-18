@@ -67,7 +67,6 @@
 		4DBCFBF42A3AE538007D4495 /* WishlistMockInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCFBF32A3AE538007D4495 /* WishlistMockInteractor.swift */; };
 		4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */; };
 		4DD471F92A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F72A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld */; };
-		4DD471FC2A0D397700D6466B /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471FB2A0D397700D6466B /* GameModel.swift */; };
 		FFA3FDC83867EF5567ED2DFD /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09C0CD79E9ED9E1826F78B1 /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework */; };
 /* End PBXBuildFile section */
 
@@ -150,7 +149,6 @@
 		4DBCFBF32A3AE538007D4495 /* WishlistMockInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistMockInteractor.swift; sourceTree = "<group>"; };
 		4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
 		4DD471F82A0CB15B00D6466B /* WishlistModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WishlistModel.xcdatamodel; sourceTree = "<group>"; };
-		4DD471FB2A0D397700D6466B /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		5498AE1A7F1CCD09ADFE728C /* Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09C0CD79E9ED9E1826F78B1 /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Submission_Aplikasi_Bentuk_Katalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC595785DD6C741235056828 /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig"; path = "Target Support Files/Pods-Submission Aplikasi Bentuk Katalog/Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig"; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				199432BC2A2C8B4200FE6E8C /* UseCase */,
-				4DD471FA2A0D396B00D6466B /* Model */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -544,14 +541,6 @@
 			path = Local;
 			sourceTree = "<group>";
 		};
-		4DD471FA2A0D396B00D6466B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				4DD471FB2A0D397700D6466B /* GameModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		4DD471FD2A0D3EF000D6466B /* Mapper */ = {
 			isa = PBXGroup;
 			children = (
@@ -761,7 +750,6 @@
 				4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */,
 				4D4EFF6A2A2DBB2200B308C8 /* WishlistUseCase.swift in Sources */,
 				19DDD44E2A07E69700FB5535 /* ProfileViewController.swift in Sources */,
-				4DD471FC2A0D397700D6466B /* GameModel.swift in Sources */,
 				4D9E1DE92A2F102B00271C5D /* GameDetailRemoteDataSource.swift in Sources */,
 				4D4EFF642A2D8CB800B308C8 /* WishlistEntity.swift in Sources */,
 				19DDD4542A086A5D00FB5535 /* String+Extensions.swift in Sources */,

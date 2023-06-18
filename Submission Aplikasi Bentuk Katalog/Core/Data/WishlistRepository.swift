@@ -7,6 +7,7 @@
 
 import Foundation
 import RxSwift
+import Common
 
 protocol WishlistRepository {
     func getWishlistedGames() -> Observable<[GameModel]>

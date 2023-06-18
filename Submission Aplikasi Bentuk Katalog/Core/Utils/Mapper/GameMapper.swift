@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Common
 
 class GameMapper {
     static func mapGameCatalogResponsetoEntity(gameResponse: [GameDataResponse]) -> [GameCatalogEntity] {

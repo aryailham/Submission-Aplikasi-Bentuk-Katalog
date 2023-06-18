@@ -7,6 +7,7 @@
 
 import Foundation
 import RxSwift
+import Common
 
 protocol GameDetailPresenter {
     var game: GameModel? {get set}

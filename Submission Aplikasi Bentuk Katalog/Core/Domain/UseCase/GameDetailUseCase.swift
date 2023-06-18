@@ -7,6 +7,7 @@
 
 import Foundation
 import RxSwift
+import Common
 
 protocol GameDetailUseCase {
     func getGameDetailData(gameId: Int) -> Observable<GameModel>

@@ -7,6 +7,7 @@
 
 import Foundation
 import RxSwift
+import Common
 
 protocol WishlistPresenter {
     var wishlist: [GameModel] { get set }

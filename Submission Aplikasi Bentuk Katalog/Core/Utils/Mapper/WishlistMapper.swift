@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Common
 
 class WishlistMapper {
     static func mapWishlistEntityToDomainModel(wishlists: [WishlistEntity]) -> [GameModel] {
