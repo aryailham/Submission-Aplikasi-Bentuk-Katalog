@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 import RealmSwift
+import Common
 
 protocol GameDetailLocalDataSource {
     func getGameDetailData(gameId: Int) -> Observable<GameCatalogEntity>

@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 import Alamofire
+import Common
 
 protocol GameDetailRemoteDataSource {
     func getGameDetails(id: Int) -> Observable<GameDetailsResponse>

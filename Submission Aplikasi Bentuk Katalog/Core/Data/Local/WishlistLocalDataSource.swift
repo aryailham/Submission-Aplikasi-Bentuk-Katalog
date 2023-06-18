@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 import RealmSwift
+import Common
 
 protocol WishlistLocalDataSource {
     func getWishlistedGames() -> Observable<[WishlistEntity]>

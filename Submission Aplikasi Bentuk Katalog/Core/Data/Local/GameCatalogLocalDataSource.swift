@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 import RealmSwift
+import Common
 
 enum RealmError: Error {
     case readError
