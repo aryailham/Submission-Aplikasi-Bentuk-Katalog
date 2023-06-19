@@ -424,37 +424,6 @@
             </objects>
             <point key="canvasLocation" x="2222" y="1051"/>
         </scene>
-        <!--Wishlist-->
-        <scene sceneID="iG0-cV-KGI">
-            <objects>
-                <viewController storyboardIdentifier="wishlistViewController" id="jqv-XL-IL7" customClass="WishlistViewController" customModule="Submission_Aplikasi_Bentuk_Katalog" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wZM-kg-X3i">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Pof-dM-mTP">
-                                <rect key="frame" x="8" y="48" width="398" height="814"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Gzd-rd-URg"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Pof-dM-mTP" firstAttribute="leading" secondItem="Gzd-rd-URg" secondAttribute="leading" constant="8" id="AO0-mA-uuw"/>
-                            <constraint firstItem="Gzd-rd-URg" firstAttribute="trailing" secondItem="Pof-dM-mTP" secondAttribute="trailing" constant="8" id="AhC-sp-tI0"/>
-                            <constraint firstItem="Gzd-rd-URg" firstAttribute="bottom" secondItem="Pof-dM-mTP" secondAttribute="bottom" id="GqK-DJ-sCM"/>
-                            <constraint firstItem="Pof-dM-mTP" firstAttribute="top" secondItem="Gzd-rd-URg" secondAttribute="top" id="o5j-NL-EJD"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Wishlist" id="yGn-br-qC4"/>
-                    <connections>
-                        <outlet property="tableView" destination="Pof-dM-mTP" id="awq-0E-rzj"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eBF-Ws-QW2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2022" y="33"/>
-        </scene>
     </scenes>
     <resources>
         <image name="Profile" width="234.5" height="243.5"/>

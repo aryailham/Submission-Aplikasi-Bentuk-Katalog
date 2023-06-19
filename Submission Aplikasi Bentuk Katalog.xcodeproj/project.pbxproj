@@ -31,12 +31,6 @@
 		19F010912A2CB9E1000A7D21 /* GameCatalogRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010902A2CB9E1000A7D21 /* GameCatalogRouter.swift */; };
 		19F010932A2CC641000A7D21 /* GameCatalogInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F010922A2CC641000A7D21 /* GameCatalogInjection.swift */; };
 		21DD8F03AFD095A826F8B9FC /* Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5498AE1A7F1CCD09ADFE728C /* Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework */; };
-		4D4EFF602A2D89D000B308C8 /* WishlistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF5F2A2D89CF00B308C8 /* WishlistRepository.swift */; };
-		4D4EFF622A2D8A8700B308C8 /* WishlistLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF612A2D8A8700B308C8 /* WishlistLocalDataSource.swift */; };
-		4D4EFF6A2A2DBB2200B308C8 /* WishlistUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF692A2DBB2200B308C8 /* WishlistUseCase.swift */; };
-		4D4EFF722A2DBEE000B308C8 /* WishlistRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF712A2DBEE000B308C8 /* WishlistRouter.swift */; };
-		4D4EFF742A2DBEE800B308C8 /* WishlistPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF732A2DBEE800B308C8 /* WishlistPresenter.swift */; };
-		4D4EFF762A2DC8CB00B308C8 /* WishlistInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4EFF752A2DC8CB00B308C8 /* WishlistInjection.swift */; };
 		4D5212652A3F33AE008FA865 /* GameWishlist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5212642A3F33AE008FA865 /* GameWishlist.framework */; };
 		4D5212662A3F33AE008FA865 /* GameWishlist.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5212642A3F33AE008FA865 /* GameWishlist.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D52127F2A3F35BC008FA865 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D52127E2A3F35BC008FA865 /* Common.framework */; };
@@ -58,7 +52,6 @@
 		4D9E1E1A2A37116E00271C5D /* GameDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E1E192A37116E00271C5D /* GameDetailTests.swift */; };
 		4DBCFBF12A3AE2CF007D4495 /* WishlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCFBF02A3AE2CF007D4495 /* WishlistTests.swift */; };
 		4DBCFBF42A3AE538007D4495 /* WishlistMockInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBCFBF32A3AE538007D4495 /* WishlistMockInteractor.swift */; };
-		4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */; };
 		4DD471F92A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DD471F72A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld */; };
 		FFA3FDC83867EF5567ED2DFD /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B09C0CD79E9ED9E1826F78B1 /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework */; };
 /* End PBXBuildFile section */
@@ -111,12 +104,6 @@
 		19F010902A2CB9E1000A7D21 /* GameCatalogRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogRouter.swift; sourceTree = "<group>"; };
 		19F010922A2CC641000A7D21 /* GameCatalogInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCatalogInjection.swift; sourceTree = "<group>"; };
 		41395C944823C20E014E776A /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig"; path = "Target Support Files/Pods-Submission Aplikasi Bentuk KatalogvTests/Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig"; sourceTree = "<group>"; };
-		4D4EFF5F2A2D89CF00B308C8 /* WishlistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistRepository.swift; sourceTree = "<group>"; };
-		4D4EFF612A2D8A8700B308C8 /* WishlistLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistLocalDataSource.swift; sourceTree = "<group>"; };
-		4D4EFF692A2DBB2200B308C8 /* WishlistUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistUseCase.swift; sourceTree = "<group>"; };
-		4D4EFF712A2DBEE000B308C8 /* WishlistRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistRouter.swift; sourceTree = "<group>"; };
-		4D4EFF732A2DBEE800B308C8 /* WishlistPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistPresenter.swift; sourceTree = "<group>"; };
-		4D4EFF752A2DC8CB00B308C8 /* WishlistInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistInjection.swift; sourceTree = "<group>"; };
 		4D5212642A3F33AE008FA865 /* GameWishlist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GameWishlist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D52127E2A3F35BC008FA865 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D9E1DE42A2F0EF100271C5D /* GameDetailUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailUseCase.swift; sourceTree = "<group>"; };
@@ -133,7 +120,6 @@
 		4D9E1E192A37116E00271C5D /* GameDetailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailTests.swift; sourceTree = "<group>"; };
 		4DBCFBF02A3AE2CF007D4495 /* WishlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistTests.swift; sourceTree = "<group>"; };
 		4DBCFBF32A3AE538007D4495 /* WishlistMockInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistMockInteractor.swift; sourceTree = "<group>"; };
-		4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistViewController.swift; sourceTree = "<group>"; };
 		4DD471F82A0CB15B00D6466B /* WishlistModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WishlistModel.xcdatamodel; sourceTree = "<group>"; };
 		5498AE1A7F1CCD09ADFE728C /* Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09C0CD79E9ED9E1826F78B1 /* Pods_Submission_Aplikasi_Bentuk_Katalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Submission_Aplikasi_Bentuk_Katalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				19F010922A2CC641000A7D21 /* GameCatalogInjection.swift */,
-				4D4EFF752A2DC8CB00B308C8 /* WishlistInjection.swift */,
 				4D9E1DEE2A30635000271C5D /* GameDetailInjection.swift */,
 			);
 			path = DI;
@@ -202,7 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				19F0108B2A2CB161000A7D21 /* GameCatalogUseCase.swift */,
-				4D4EFF692A2DBB2200B308C8 /* WishlistUseCase.swift */,
 				4D9E1DE42A2F0EF100271C5D /* GameDetailUseCase.swift */,
 			);
 			path = UseCase;
@@ -244,14 +228,6 @@
 			isa = PBXGroup;
 			children = (
 				19DDD44D2A07E69700FB5535 /* ProfileViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		199432C32A2C8BE400FE6E8C /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				4DD471F22A0CADBC00D6466B /* WishlistViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -304,7 +280,6 @@
 		19DDD4302A0756E100FB5535 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				4DD471F12A0CADA600D6466B /* Wishlist */,
 				19DDD4332A07570000FB5535 /* Profile */,
 				19DDD4322A0756F600FB5535 /* Game Detail */,
 				19DDD4312A0756E800FB5535 /* Game Catalog */,
@@ -347,7 +322,6 @@
 				4DD471F42A0CB0CF00D6466B /* Local */,
 				19DDD4422A075DDE00FB5535 /* Remote */,
 				199432AC2A2C877B00FE6E8C /* GameCatalogRepository.swift */,
-				4D4EFF5F2A2D89CF00B308C8 /* WishlistRepository.swift */,
 				4D9E1DE62A2F0FF500271C5D /* GameDetailRepository.swift */,
 			);
 			path = Data;
@@ -370,22 +344,6 @@
 				4D9E1DE82A2F102B00271C5D /* GameDetailRemoteDataSource.swift */,
 			);
 			path = Remote;
-			sourceTree = "<group>";
-		};
-		4D4EFF6F2A2DBED100B308C8 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				4D4EFF732A2DBEE800B308C8 /* WishlistPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		4D4EFF702A2DBED700B308C8 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				4D4EFF712A2DBEE000B308C8 /* WishlistRouter.swift */,
-			);
-			path = Router;
 			sourceTree = "<group>";
 		};
 		4D9E1DF02A30658D00271C5D /* Presenter */ = {
@@ -484,22 +442,11 @@
 			path = Mock;
 			sourceTree = "<group>";
 		};
-		4DD471F12A0CADA600D6466B /* Wishlist */ = {
-			isa = PBXGroup;
-			children = (
-				4D4EFF702A2DBED700B308C8 /* Router */,
-				4D4EFF6F2A2DBED100B308C8 /* Presenter */,
-				199432C32A2C8BE400FE6E8C /* Controller */,
-			);
-			path = Wishlist;
-			sourceTree = "<group>";
-		};
 		4DD471F42A0CB0CF00D6466B /* Local */ = {
 			isa = PBXGroup;
 			children = (
 				4DD471F72A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld */,
 				19F010872A2C9D0D000A7D21 /* GameCatalogLocalDataSource.swift */,
-				4D4EFF612A2D8A8700B308C8 /* WishlistLocalDataSource.swift */,
 				4D9E1DEB2A2F134900271C5D /* GameDetailLocalDataSource.swift */,
 			);
 			path = Local;
@@ -687,26 +634,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				19F010912A2CB9E1000A7D21 /* GameCatalogRouter.swift in Sources */,
-				4D4EFF622A2D8A8700B308C8 /* WishlistLocalDataSource.swift in Sources */,
 				19F0108C2A2CB161000A7D21 /* GameCatalogUseCase.swift in Sources */,
 				19DDD4042A0756C900FB5535 /* GameCatalogViewController.swift in Sources */,
 				4DD471F92A0CB15B00D6466B /* SubmissionAplikasiBentukCatalog.xcdatamodeld in Sources */,
 				19DDD4502A07E92C00FB5535 /* DetailViewController.swift in Sources */,
-				4D4EFF602A2D89D000B308C8 /* WishlistRepository.swift in Sources */,
 				19F0108F2A2CB2DF000A7D21 /* GameCatalogPresenter.swift in Sources */,
 				4D9E1DE52A2F0EF100271C5D /* GameDetailUseCase.swift in Sources */,
-				4D4EFF762A2DC8CB00B308C8 /* WishlistInjection.swift in Sources */,
 				199432AD2A2C877B00FE6E8C /* GameCatalogRepository.swift in Sources */,
 				19DDD4492A07D11F00FB5535 /* UIViewController+Extensions.swift in Sources */,
 				19DDD43E2A075A3B00FB5535 /* UIView+Extensions.swift in Sources */,
-				4D4EFF722A2DBEE000B308C8 /* WishlistRouter.swift in Sources */,
-				4DD471F32A0CADBC00D6466B /* WishlistViewController.swift in Sources */,
-				4D4EFF6A2A2DBB2200B308C8 /* WishlistUseCase.swift in Sources */,
 				19DDD44E2A07E69700FB5535 /* ProfileViewController.swift in Sources */,
 				4D9E1DE92A2F102B00271C5D /* GameDetailRemoteDataSource.swift in Sources */,
 				19DDD4542A086A5D00FB5535 /* String+Extensions.swift in Sources */,
 				19DDD4002A0756C900FB5535 /* AppDelegate.swift in Sources */,
-				4D4EFF742A2DBEE800B308C8 /* WishlistPresenter.swift in Sources */,
 				4D9E1DEF2A30635000271C5D /* GameDetailInjection.swift in Sources */,
 				19DDD4022A0756C900FB5535 /* SceneDelegate.swift in Sources */,
 				4D9E1DF52A3184B000271C5D /* GameDetailRouter.swift in Sources */,

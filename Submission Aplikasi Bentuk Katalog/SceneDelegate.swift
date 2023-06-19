@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GameWishlist
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
