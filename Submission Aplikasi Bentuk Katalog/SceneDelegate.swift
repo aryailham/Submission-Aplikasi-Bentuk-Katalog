@@ -7,6 +7,7 @@
 
 import UIKit
 import GameWishlist
+import Profile
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -24,7 +25,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let wishlistNavigationController = WishlistRouter.createModule()
         
-        let profileViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "profileViewController") as! ProfileViewController
+        let profileViewController = UIStoryboard(name: "Profile", bundle: Bundle(identifier: "com.arya.Profile")).instantiateViewController(withIdentifier: "profileViewController") as! ProfileViewController
         let profileNavigationController = UINavigationController(rootViewController: profileViewController)
         
         let tabBarController = UITabBarController()

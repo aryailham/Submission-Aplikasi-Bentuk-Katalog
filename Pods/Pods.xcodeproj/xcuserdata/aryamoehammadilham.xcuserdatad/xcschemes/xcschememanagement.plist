@@ -25,19 +25,26 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-Submission Aplikasi Bentuk Katalog.xcscheme</key>
+		<key>Pods-Profile.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>Pods-Submission Aplikasi Bentuk KatalogvTests.xcscheme</key>
+		<key>Pods-Submission Aplikasi Bentuk Katalog.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>Pods-Submission Aplikasi Bentuk KatalogvTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

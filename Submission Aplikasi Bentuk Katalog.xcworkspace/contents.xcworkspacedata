@@ -11,9 +11,12 @@
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:../GameDetail/GameDetail.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Submission Aplikasi Bentuk Katalog.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../GameDetail/GameDetail.xcodeproj">
+      location = "group:../Profile/Profile.xcodeproj">
    </FileRef>
 </Workspace>

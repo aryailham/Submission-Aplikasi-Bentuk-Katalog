@@ -22,3 +22,7 @@ end
 target 'GameDetail' do
   project '../GameDetail/GameDetail'
 end
+
+target 'Profile' do
+  project '../Profile/Profile'
+end

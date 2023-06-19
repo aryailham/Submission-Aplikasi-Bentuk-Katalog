@@ -375,64 +375,11 @@
             </objects>
             <point key="canvasLocation" x="3052" y="-674"/>
         </scene>
-        <!--Profile-->
-        <scene sceneID="hJ2-k5-qgF">
-            <objects>
-                <viewController storyboardIdentifier="profileViewController" id="qat-X0-fp4" customClass="ProfileViewController" customModule="Submission_Aplikasi_Bentuk_Katalog" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ojj-o8-e8o">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dBY-dw-abo">
-                                <rect key="frame" x="60.5" y="336.5" width="293.5" height="223.5"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="Qe2-wF-xkJ">
-                                        <rect key="frame" x="71.5" y="0.0" width="150" height="150"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="150" id="NXF-SV-Gg6"/>
-                                            <constraint firstAttribute="width" constant="150" id="suN-s0-8hx"/>
-                                        </constraints>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arya Moehammad Ilham" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGa-Vi-prS">
-                                        <rect key="frame" x="0.0" y="158" width="293.5" height="33.5"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="arya@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2e-Jg-gm6">
-                                        <rect key="frame" x="74" y="199.5" width="145.5" height="24"/>
-                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
-                                        <color key="textColor" systemColor="systemGray2Color"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Cia-M4-Bml"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="dBY-dw-abo" firstAttribute="centerX" secondItem="Ojj-o8-e8o" secondAttribute="centerX" id="eQI-qA-mHH"/>
-                            <constraint firstItem="dBY-dw-abo" firstAttribute="centerY" secondItem="Ojj-o8-e8o" secondAttribute="centerY" id="y1b-vF-9lN"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Profile" id="Ufp-5K-WB3"/>
-                    <connections>
-                        <outlet property="profileImage" destination="Qe2-wF-xkJ" id="w5e-Va-FaQ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jhn-gH-ieg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2222" y="1051"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="Profile" width="234.5" height="243.5"/>
         <image name="heart" catalog="system" width="128" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
