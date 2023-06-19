@@ -1,0 +1,6 @@
+framework module Pods_GameWishlist {
+  umbrella header "Pods-GameWishlist-umbrella.h"
+
+  export *
+  module * { export * }
+}

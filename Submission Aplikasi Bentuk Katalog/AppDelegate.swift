@@ -7,6 +7,8 @@
 
 import UIKit
 import RealmSwift
+import GameWishlist
+import Profile
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -43,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let wishlistNavigationController = WishlistRouter.createModule()
         
-        let profileViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "profileViewController") as! ProfileViewController
+        let profileViewController = UIStoryboard(name: "Profile", bundle: Bundle(identifier: "com.arya.Profile")).instantiateViewController(withIdentifier: "profileViewController") as! ProfileViewController
         let profileNavigationController = UINavigationController(rootViewController: profileViewController)
         
         let tabBarController = UITabBarController()

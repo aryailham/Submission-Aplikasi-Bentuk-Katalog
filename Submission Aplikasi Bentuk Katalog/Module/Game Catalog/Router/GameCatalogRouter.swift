@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GameDetail
 
 class GameCatalogRouter {
     static func createModule() -> UINavigationController {

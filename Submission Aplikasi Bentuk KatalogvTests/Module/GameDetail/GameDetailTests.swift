@@ -6,12 +6,12 @@
 //
 
 import XCTest
-@testable import Submission_Aplikasi_Bentuk_Katalog
+@testable import GameDetail
 
 final class GameDetailTests: XCTestCase {
     func testGameDetailEmpty() throws {
         let interactor = GameDetailEmptyMockInteractor()
-        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
+        let controller = UIStoryboard(name: "GameDetail", bundle: Bundle(identifier: "com.arya.GameDetail")).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
         let presenter = GameDetailDefaultPresenter(view: controller, interactor: interactor)
         controller.loadView()
         
@@ -21,7 +21,7 @@ final class GameDetailTests: XCTestCase {
     
     func testGameDetailHasData() throws {
         let interactor = GameDetailHasDataMockInteractor()
-        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
+        let controller = UIStoryboard(name: "GameDetail", bundle: Bundle(identifier: "com.arya.GameDetail")).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
         let presenter = GameDetailDefaultPresenter(view: controller, interactor: interactor)
         controller.loadView()
         
@@ -32,7 +32,7 @@ final class GameDetailTests: XCTestCase {
     func testChangeGameStatusToWishlisted() throws {
         let interactor = GameDetailHasDataMockInteractor()
         interactor.isWishlisted = false
-        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
+        let controller = UIStoryboard(name: "GameDetail", bundle: Bundle(identifier: "com.arya.GameDetail")).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
         let presenter = GameDetailDefaultPresenter(view: controller, interactor: interactor)
         controller.loadView()
         
@@ -48,7 +48,7 @@ final class GameDetailTests: XCTestCase {
     func testChangeGameStatusToUnwishlisted() throws {
         let interactor = GameDetailHasDataMockInteractor()
         interactor.isWishlisted = true
-        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
+        let controller = UIStoryboard(name: "GameDetail", bundle: Bundle(identifier: "com.arya.GameDetail")).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
         let presenter = GameDetailDefaultPresenter(view: controller, interactor: interactor)
         controller.loadView()
         
@@ -64,7 +64,7 @@ final class GameDetailTests: XCTestCase {
     func testSetGameStatusToWishlisted() throws {
         let interactor = GameDetailHasDataMockInteractor()
         interactor.isWishlisted = false
-        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
+        let controller = UIStoryboard(name: "GameDetail", bundle: Bundle(identifier: "com.arya.GameDetail")).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
         let presenter = GameDetailDefaultPresenter(view: controller, interactor: interactor)
         controller.loadView()
         
@@ -78,7 +78,7 @@ final class GameDetailTests: XCTestCase {
     func testSetGameStatusToUnwishlisted() throws {
         let interactor = GameDetailHasDataMockInteractor()
         interactor.isWishlisted = true
-        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
+        let controller = UIStoryboard(name: "GameDetail", bundle: Bundle(identifier: "com.arya.GameDetail")).instantiateViewController(withIdentifier: "detailViewController") as! DetailViewController
         let presenter = GameDetailDefaultPresenter(view: controller, interactor: interactor)
         controller.loadView()
         

@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 @testable import Submission_Aplikasi_Bentuk_Katalog
+@testable import Common
 
 class GameCatalogEmptyMockInteractor: GameCatalogUseCase {
     func getgameCatalog() -> Observable<[GameModel]> {

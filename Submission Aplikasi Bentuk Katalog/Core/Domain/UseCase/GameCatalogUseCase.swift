@@ -7,6 +7,7 @@
 
 import Foundation
 import RxSwift
+import Common
 
 protocol GameCatalogUseCase {
     func getgameCatalog() -> Observable<[GameModel]>

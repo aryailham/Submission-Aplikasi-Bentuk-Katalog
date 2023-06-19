@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../GameWishlist/GameWishlist.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Common/Common.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../GameDetail/GameDetail.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Submission Aplikasi Bentuk Katalog.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Profile/Profile.xcodeproj">
+   </FileRef>
+</Workspace>

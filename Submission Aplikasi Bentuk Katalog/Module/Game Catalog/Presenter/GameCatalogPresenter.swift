@@ -7,6 +7,7 @@
 
 import Foundation
 import RxSwift
+import Common
 
 protocol GameCatalogPresenter {
     var gameCatalog: [GameModel] {get set}

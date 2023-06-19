@@ -7,12 +7,12 @@
 
 import XCTest
 import RxSwift
-@testable import Submission_Aplikasi_Bentuk_Katalog
+@testable import GameWishlist
 
 final class WishlistTests: XCTestCase {
     func testWishlistEmpty() throws {
         let interactor = WishlistEmptyMockInteractor()
-        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "wishlistViewController") as! WishlistViewController
+        let controller = UIStoryboard(name: "Wishlist", bundle: Bundle(identifier: "com.arya.GameWishlist")).instantiateViewController(withIdentifier: "wishlistViewController") as! WishlistViewController
         let presenter = WishlistDefaultPresenter(view: controller, interactor: interactor)
         controller.loadView()
 
@@ -22,7 +22,7 @@ final class WishlistTests: XCTestCase {
     
     func testWishlistHasData() throws {
         let interactor = WishlistHasDataMockInteractor()
-        let controller = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "wishlistViewController") as! WishlistViewController
+        let controller = UIStoryboard(name: "Wishlist", bundle: Bundle(identifier: "com.arya.GameWishlist")).instantiateViewController(withIdentifier: "wishlistViewController") as! WishlistViewController
         let presenter = WishlistDefaultPresenter(view: controller, interactor: interactor)
         controller.loadView()
         
