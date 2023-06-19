@@ -5,12 +5,15 @@
       location = "group:../GameWishlist/GameWishlist.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Submission Aplikasi Bentuk Katalog.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:../Common/Common.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Submission Aplikasi Bentuk Katalog.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../GameDetail/GameDetail.xcodeproj">
    </FileRef>
 </Workspace>

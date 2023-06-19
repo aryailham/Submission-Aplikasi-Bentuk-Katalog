@@ -7,22 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2702D43BA7AEF819AB89DB30BB12B029 /* Pods-Submission Aplikasi Bentuk Katalog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D2D20AA79567206BE068696C1D212F /* Pods-Submission Aplikasi Bentuk Katalog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08917C28B02808F28C0B0C0CD6CA42B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1BB8D90C4BED8168DC7BC7C95B3A00E9 /* Pods-GameDetail-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3214820F439A4BBD63521B54F78A5B8 /* Pods-GameDetail-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2702D43BA7AEF819AB89DB30BB12B029 /* Pods-Submission Aplikasi Bentuk Katalog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B884064EBC22909A2A13A8C53D2628 /* Pods-Submission Aplikasi Bentuk Katalog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3426267B17C22A0920FFC0BAE668C041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		676A3A3FF1EF727D8E5BB4FF514052BF /* Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B82D524150A0E9DDA34489EE9C96E7E4 /* Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m */; };
+		58F0ACD8DD9162C71CE40D7973206627 /* Pods-GameDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F311D0B673B19133A0133C288868E81 /* Pods-GameDetail-dummy.m */; };
+		676A3A3FF1EF727D8E5BB4FF514052BF /* Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 290EBDC6ACDB1B9178413CF81BE3FF26 /* Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m */; };
 		8363297622F7D025062B6F76FA4F25E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8FCEA24A8A224E3DD7D57851C798DCE6 /* Pods-Submission Aplikasi Bentuk Katalog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AD304E405D05E233AC38963D2B8352 /* Pods-Submission Aplikasi Bentuk Katalog-dummy.m */; };
+		8FCEA24A8A224E3DD7D57851C798DCE6 /* Pods-Submission Aplikasi Bentuk Katalog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EF019C7475545C3899BBBE98199B1 /* Pods-Submission Aplikasi Bentuk Katalog-dummy.m */; };
 		9C8A36F3DA93BAE5E9A60B52FBF816D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B086519A9DD5EB1F0E31C91BC3A3B40D /* Pods-GameWishlist-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DC08020131BA1E5CB5021D77B2E0FE /* Pods-GameWishlist-dummy.m */; };
-		BAD891881BEECBB58CFFFD590D59F457 /* Pods-Common-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE1C8590FF1C84738A6DE03995E2A7 /* Pods-Common-dummy.m */; };
+		B086519A9DD5EB1F0E31C91BC3A3B40D /* Pods-GameWishlist-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE77FB86717D8904D5E6027A5357B7D /* Pods-GameWishlist-dummy.m */; };
+		BAD891881BEECBB58CFFFD590D59F457 /* Pods-Common-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 073CFB8C9BB1C595D1A9D40EA4B43824 /* Pods-Common-dummy.m */; };
 		C0F5A96D135AF59376B3345809C88864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D22C44743084BB25EAF837C7997E2AF2 /* Pods-Common-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 494C029C2EEC7FF23757BA29DF319754 /* Pods-Common-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0F435C6B10F99E072E187C8E10BBBD3 /* Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 942662A7046EB733FE2B6CBEF4AEB6B8 /* Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7E6265AD7D6A669F8799C3776D4F1D0 /* Pods-GameWishlist-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7524BD5E1C07F7418D53731C874CA10D /* Pods-GameWishlist-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D22C44743084BB25EAF837C7997E2AF2 /* Pods-Common-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DF9DA983C47B5391E60306C91CED19 /* Pods-Common-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0F435C6B10F99E072E187C8E10BBBD3 /* Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E746169CE3DD58E5B8F18C26E0973A5 /* Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7E6265AD7D6A669F8799C3776D4F1D0 /* Pods-GameWishlist-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA009C3B8F7053E18E356742156D989F /* Pods-GameWishlist-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46E03EAC2A6F2ED66C2FB5B633A125D7 /* PBXContainerItemProxy */ = {
+		26F4BD255DF1284DC0D574D791ABA20F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -32,44 +35,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08AA37E3595B49853D76ADAD0E1CAB50 /* Pods-Common.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Common.modulemap"; sourceTree = "<group>"; };
-		0AE83F2414E027F78B886AB71165AF71 /* Pods-Submission Aplikasi Bentuk Katalog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Submission Aplikasi Bentuk Katalog.modulemap"; sourceTree = "<group>"; };
-		0D67534954A05D10C7ABBA19C819DF7E /* Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig"; sourceTree = "<group>"; };
+		073CFB8C9BB1C595D1A9D40EA4B43824 /* Pods-Common-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Common-dummy.m"; sourceTree = "<group>"; };
 		0F4D620C44EF1CE7342240BAC295F02A /* Pods-Common */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Common"; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12ECC425CBB77247C80859115FAB16C8 /* Pods-Submission Aplikasi Bentuk Katalog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Submission Aplikasi Bentuk Katalog"; path = Pods_Submission_Aplikasi_Bentuk_Katalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EB10E3F2F68326854DED462BD6D1862 /* Pods-Common-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Common-acknowledgements.plist"; sourceTree = "<group>"; };
-		220AC3548ECF7BB10E6BCAA5D575588E /* Pods-Submission Aplikasi Bentuk KatalogvTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Submission Aplikasi Bentuk KatalogvTests.modulemap"; sourceTree = "<group>"; };
-		23FDD62C6B535114D269B7E6409C1CDC /* Pods-Submission Aplikasi Bentuk KatalogvTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-Info.plist"; sourceTree = "<group>"; };
-		31AD304E405D05E233AC38963D2B8352 /* Pods-Submission Aplikasi Bentuk Katalog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Submission Aplikasi Bentuk Katalog-dummy.m"; sourceTree = "<group>"; };
-		3A43C6D13283353F1BDB30DEC9029FC2 /* Pods-Common-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Common-acknowledgements.markdown"; sourceTree = "<group>"; };
-		494C029C2EEC7FF23757BA29DF319754 /* Pods-Common-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Common-umbrella.h"; sourceTree = "<group>"; };
-		4D4433AE65998F24DCBD86BB79553AC1 /* Pods-GameWishlist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameWishlist.release.xcconfig"; sourceTree = "<group>"; };
-		4EA5D00619102A5F33D158894AE6AC1D /* Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig"; sourceTree = "<group>"; };
-		515471210CFAE740CB63FC822F14E728 /* Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2053A41219B8B6CC16580FFA6A2FF50B /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig"; sourceTree = "<group>"; };
+		214E73DE53A342D7D8D024550D3D8133 /* Pods-Submission Aplikasi Bentuk KatalogvTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-Info.plist"; sourceTree = "<group>"; };
+		290EBDC6ACDB1B9178413CF81BE3FF26 /* Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m"; sourceTree = "<group>"; };
+		2F311D0B673B19133A0133C288868E81 /* Pods-GameDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameDetail-dummy.m"; sourceTree = "<group>"; };
+		31212F51881750B6D25D8CD789C61F1D /* Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.markdown"; sourceTree = "<group>"; };
+		379E74A6616780DF6E0F895F8278A0B6 /* Pods-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Common.release.xcconfig"; sourceTree = "<group>"; };
+		400734D3C3336AC747CCB8C3697B683F /* Pods-Common-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Common-acknowledgements.plist"; sourceTree = "<group>"; };
+		42FD5E66757AC35BFC0E0958D0153474 /* Pods-GameDetail-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameDetail-acknowledgements.plist"; sourceTree = "<group>"; };
+		48ADE92724CCACC67EC2C7AFC141A785 /* Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig"; sourceTree = "<group>"; };
+		4B3EF019C7475545C3899BBBE98199B1 /* Pods-Submission Aplikasi Bentuk Katalog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Submission Aplikasi Bentuk Katalog-dummy.m"; sourceTree = "<group>"; };
+		5111381D633C09D636030372800359D3 /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
+		51AAEF58946FBC35D5EC0BE2CE98D079 /* Pods-GameWishlist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameWishlist.debug.xcconfig"; sourceTree = "<group>"; };
 		5205DF44ABFC47BF06F77B0AA332917D /* Pods-Submission Aplikasi Bentuk KatalogvTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Submission Aplikasi Bentuk KatalogvTests"; path = Pods_Submission_Aplikasi_Bentuk_KatalogvTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		59B0AB7CC592A1152CE41473FD9690A3 /* Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6283D7AB5120410E21C1E742D28D1853 /* Pods-GameWishlist.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GameWishlist.modulemap"; sourceTree = "<group>"; };
-		69E118CC276946EB19436E15966C2FE3 /* Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.plist"; sourceTree = "<group>"; };
+		5843ADE7671EE91FC7F9A6FEB1FEC69F /* Pods-GameWishlist-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameWishlist-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5972F0CB2809E465F52EC6BA2A33BC86 /* Pods-GameWishlist-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameWishlist-Info.plist"; sourceTree = "<group>"; };
+		59FFAE950E1877861E7022449B8935F7 /* Pods-GameDetail */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GameDetail"; path = Pods_GameDetail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E746169CE3DD58E5B8F18C26E0973A5 /* Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h"; sourceTree = "<group>"; };
+		6AA309F8D6AEABC49D6D3EA7B31794DD /* Pods-GameWishlist-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameWishlist-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7524BD5E1C07F7418D53731C874CA10D /* Pods-GameWishlist-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameWishlist-umbrella.h"; sourceTree = "<group>"; };
-		78D2D20AA79567206BE068696C1D212F /* Pods-Submission Aplikasi Bentuk Katalog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Submission Aplikasi Bentuk Katalog-umbrella.h"; sourceTree = "<group>"; };
-		8218A64A28BA6EA5E573D097576B88CD /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig"; sourceTree = "<group>"; };
-		8A56F271D8042BD9F0023443D37D35D9 /* Pods-Common-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Common-Info.plist"; sourceTree = "<group>"; };
-		925EA0EDD599567E4F1B617ECD16525B /* Pods-GameWishlist-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameWishlist-acknowledgements.markdown"; sourceTree = "<group>"; };
-		942662A7046EB733FE2B6CBEF4AEB6B8 /* Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h"; sourceTree = "<group>"; };
+		7AD01500745A818C92E6510F98ED2C28 /* Pods-GameDetail-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameDetail-Info.plist"; sourceTree = "<group>"; };
+		80FCEA1647A8AC92DACDF9E10E53E588 /* Pods-Common-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Common-Info.plist"; sourceTree = "<group>"; };
+		833B153C3B788D8E5AFEBC884C96290B /* Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.plist"; sourceTree = "<group>"; };
+		85C74414D077BE126FF8F97D1F9AE7FC /* Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		861438D06B36EC64B0CFCCD0287AB247 /* Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86E5F166A88605037A0CECD76A5BF832 /* Pods-Submission Aplikasi Bentuk Katalog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Submission Aplikasi Bentuk Katalog.modulemap"; sourceTree = "<group>"; };
 		94BC5570910EB6C9AAE86ACC0CA340F2 /* Pods-GameWishlist */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GameWishlist"; path = Pods_GameWishlist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C02A0A4DF0BC3913CF1EE1CC3D2DBBF /* Pods-Submission Aplikasi Bentuk Katalog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Submission Aplikasi Bentuk Katalog-Info.plist"; sourceTree = "<group>"; };
+		9D66BDBD9DBA599B6D1CC2BF05B23B28 /* Pods-GameDetail.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GameDetail.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADD5D13BC999D509DAD68F2106F34961 /* Pods-GameWishlist-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameWishlist-Info.plist"; sourceTree = "<group>"; };
-		AEC5AE09AB47646922053F3D51E78635 /* Pods-Submission Aplikasi Bentuk Katalog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Submission Aplikasi Bentuk Katalog-Info.plist"; sourceTree = "<group>"; };
-		B82D524150A0E9DDA34489EE9C96E7E4 /* Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m"; sourceTree = "<group>"; };
-		BEFF73C8D14C5B3D8CA785C73F23D108 /* Pods-GameWishlist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameWishlist.debug.xcconfig"; sourceTree = "<group>"; };
-		C5B96E68F83040CA06470FEFAD973862 /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
-		C5BE1C8590FF1C84738A6DE03995E2A7 /* Pods-Common-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Common-dummy.m"; sourceTree = "<group>"; };
-		C8D236429678BC1E253DC6585A18C484 /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig"; sourceTree = "<group>"; };
-		CBB097690885F67B7ADEB297059B61BB /* Pods-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Common.release.xcconfig"; sourceTree = "<group>"; };
-		DFE1CEC802302F61F5EEE0ABF64499B5 /* Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFD8D1D825E394EA428FC3A60970F99E /* Pods-GameWishlist-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GameWishlist-acknowledgements.plist"; sourceTree = "<group>"; };
-		F2DC08020131BA1E5CB5021D77B2E0FE /* Pods-GameWishlist-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameWishlist-dummy.m"; sourceTree = "<group>"; };
+		A5B884064EBC22909A2A13A8C53D2628 /* Pods-Submission Aplikasi Bentuk Katalog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Submission Aplikasi Bentuk Katalog-umbrella.h"; sourceTree = "<group>"; };
+		B0E184EEA35537D49CC748F75100BF19 /* Pods-GameDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameDetail.debug.xcconfig"; sourceTree = "<group>"; };
+		B1AC377FBF59436F675DCFB3B409F3EC /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig"; sourceTree = "<group>"; };
+		B1F0EDA7375DBEE5625B4358A6042E68 /* Pods-Common.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Common.modulemap"; sourceTree = "<group>"; };
+		C3214820F439A4BBD63521B54F78A5B8 /* Pods-GameDetail-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameDetail-umbrella.h"; sourceTree = "<group>"; };
+		C8DE4E3790D7A5BA3A08B1F8C64E6F0B /* Pods-GameDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameDetail.release.xcconfig"; sourceTree = "<group>"; };
+		CA450C0CB0B50998D9FCE7B1FAAE5FF0 /* Pods-Common-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Common-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAE77FB86717D8904D5E6027A5357B7D /* Pods-GameWishlist-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GameWishlist-dummy.m"; sourceTree = "<group>"; };
+		DEB377B0634BD5C7CCAC2645A3D25DD8 /* Pods-GameWishlist.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GameWishlist.modulemap"; sourceTree = "<group>"; };
+		EA009C3B8F7053E18E356742156D989F /* Pods-GameWishlist-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GameWishlist-umbrella.h"; sourceTree = "<group>"; };
+		ECA309269E537A6575A410A34D1EA915 /* Pods-Submission Aplikasi Bentuk KatalogvTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Submission Aplikasi Bentuk KatalogvTests.modulemap"; sourceTree = "<group>"; };
+		F2DF9DA983C47B5391E60306C91CED19 /* Pods-Common-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Common-umbrella.h"; sourceTree = "<group>"; };
+		F8B384CD1D6A123EC58BD3F8E836A230 /* Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBAD0B55D76158084E43DAF99DA9354C /* Pods-GameDetail-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GameDetail-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE69B586972C70E18CD32826388FE8F9 /* Pods-GameWishlist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GameWishlist.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C8A36F3DA93BAE5E9A60B52FBF816D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75B7BEA48AF85D1B85CAB6EAAC369717 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08917C28B02808F28C0B0C0CD6CA42B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,37 +136,43 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8005DB8C26C0552F6B3CFACC844A3FA3 /* Targets Support Files */ = {
+		70D2402AFCC663432BD865304CBC4405 /* Pods-Submission Aplikasi Bentuk KatalogvTests */ = {
 			isa = PBXGroup;
 			children = (
-				E80C04ACC2D53041197D809FF1561219 /* Pods-Common */,
-				8622F6B99712EB03D33EF495284030E2 /* Pods-GameWishlist */,
-				C697904B9F140BE795AD375BA63B2212 /* Pods-Submission Aplikasi Bentuk Katalog */,
-				F190275DC8DBE02AF0FBB08EE0E1F6E4 /* Pods-Submission Aplikasi Bentuk KatalogvTests */,
+				ECA309269E537A6575A410A34D1EA915 /* Pods-Submission Aplikasi Bentuk KatalogvTests.modulemap */,
+				F8B384CD1D6A123EC58BD3F8E836A230 /* Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.markdown */,
+				85C74414D077BE126FF8F97D1F9AE7FC /* Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.plist */,
+				290EBDC6ACDB1B9178413CF81BE3FF26 /* Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m */,
+				214E73DE53A342D7D8D024550D3D8133 /* Pods-Submission Aplikasi Bentuk KatalogvTests-Info.plist */,
+				5E746169CE3DD58E5B8F18C26E0973A5 /* Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h */,
+				861438D06B36EC64B0CFCCD0287AB247 /* Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig */,
+				2053A41219B8B6CC16580FFA6A2FF50B /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Submission Aplikasi Bentuk KatalogvTests";
+			path = "Target Support Files/Pods-Submission Aplikasi Bentuk KatalogvTests";
 			sourceTree = "<group>";
 		};
-		8622F6B99712EB03D33EF495284030E2 /* Pods-GameWishlist */ = {
+		9A249AC2938D4BBCFECF557A39C56466 /* Pods-GameWishlist */ = {
 			isa = PBXGroup;
 			children = (
-				6283D7AB5120410E21C1E742D28D1853 /* Pods-GameWishlist.modulemap */,
-				925EA0EDD599567E4F1B617ECD16525B /* Pods-GameWishlist-acknowledgements.markdown */,
-				EFD8D1D825E394EA428FC3A60970F99E /* Pods-GameWishlist-acknowledgements.plist */,
-				F2DC08020131BA1E5CB5021D77B2E0FE /* Pods-GameWishlist-dummy.m */,
-				ADD5D13BC999D509DAD68F2106F34961 /* Pods-GameWishlist-Info.plist */,
-				7524BD5E1C07F7418D53731C874CA10D /* Pods-GameWishlist-umbrella.h */,
-				BEFF73C8D14C5B3D8CA785C73F23D108 /* Pods-GameWishlist.debug.xcconfig */,
-				4D4433AE65998F24DCBD86BB79553AC1 /* Pods-GameWishlist.release.xcconfig */,
+				DEB377B0634BD5C7CCAC2645A3D25DD8 /* Pods-GameWishlist.modulemap */,
+				5843ADE7671EE91FC7F9A6FEB1FEC69F /* Pods-GameWishlist-acknowledgements.markdown */,
+				6AA309F8D6AEABC49D6D3EA7B31794DD /* Pods-GameWishlist-acknowledgements.plist */,
+				DAE77FB86717D8904D5E6027A5357B7D /* Pods-GameWishlist-dummy.m */,
+				5972F0CB2809E465F52EC6BA2A33BC86 /* Pods-GameWishlist-Info.plist */,
+				EA009C3B8F7053E18E356742156D989F /* Pods-GameWishlist-umbrella.h */,
+				51AAEF58946FBC35D5EC0BE2CE98D079 /* Pods-GameWishlist.debug.xcconfig */,
+				FE69B586972C70E18CD32826388FE8F9 /* Pods-GameWishlist.release.xcconfig */,
 			);
 			name = "Pods-GameWishlist";
 			path = "Target Support Files/Pods-GameWishlist";
 			sourceTree = "<group>";
 		};
-		C0E36C20B443BC0F1360C865BBC88F47 /* Products */ = {
+		9DBF09A7E3804D4E6BCF6B0CC1D4AEF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				0F4D620C44EF1CE7342240BAC295F02A /* Pods-Common */,
+				59FFAE950E1877861E7022449B8935F7 /* Pods-GameDetail */,
 				94BC5570910EB6C9AAE86ACC0CA340F2 /* Pods-GameWishlist */,
 				12ECC425CBB77247C80859115FAB16C8 /* Pods-Submission Aplikasi Bentuk Katalog */,
 				5205DF44ABFC47BF06F77B0AA332917D /* Pods-Submission Aplikasi Bentuk KatalogvTests */,
@@ -154,20 +180,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C697904B9F140BE795AD375BA63B2212 /* Pods-Submission Aplikasi Bentuk Katalog */ = {
+		A2D0ED4D42D3CCC031F5962E3AEB71C1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0AE83F2414E027F78B886AB71165AF71 /* Pods-Submission Aplikasi Bentuk Katalog.modulemap */,
-				59B0AB7CC592A1152CE41473FD9690A3 /* Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.markdown */,
-				69E118CC276946EB19436E15966C2FE3 /* Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.plist */,
-				31AD304E405D05E233AC38963D2B8352 /* Pods-Submission Aplikasi Bentuk Katalog-dummy.m */,
-				AEC5AE09AB47646922053F3D51E78635 /* Pods-Submission Aplikasi Bentuk Katalog-Info.plist */,
-				78D2D20AA79567206BE068696C1D212F /* Pods-Submission Aplikasi Bentuk Katalog-umbrella.h */,
-				8218A64A28BA6EA5E573D097576B88CD /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */,
-				0D67534954A05D10C7ABBA19C819DF7E /* Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig */,
+				CA346664F9DAE7EB6C5803BF8A61158A /* Pods-Common */,
+				A7A1117DAAF6C0B4EB48C123EE5F001D /* Pods-GameDetail */,
+				9A249AC2938D4BBCFECF557A39C56466 /* Pods-GameWishlist */,
+				FD2B8DBA3112446B7E85FA10F3E6FD6E /* Pods-Submission Aplikasi Bentuk Katalog */,
+				70D2402AFCC663432BD865304CBC4405 /* Pods-Submission Aplikasi Bentuk KatalogvTests */,
 			);
-			name = "Pods-Submission Aplikasi Bentuk Katalog";
-			path = "Target Support Files/Pods-Submission Aplikasi Bentuk Katalog";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A7A1117DAAF6C0B4EB48C123EE5F001D /* Pods-GameDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9D66BDBD9DBA599B6D1CC2BF05B23B28 /* Pods-GameDetail.modulemap */,
+				FBAD0B55D76158084E43DAF99DA9354C /* Pods-GameDetail-acknowledgements.markdown */,
+				42FD5E66757AC35BFC0E0958D0153474 /* Pods-GameDetail-acknowledgements.plist */,
+				2F311D0B673B19133A0133C288868E81 /* Pods-GameDetail-dummy.m */,
+				7AD01500745A818C92E6510F98ED2C28 /* Pods-GameDetail-Info.plist */,
+				C3214820F439A4BBD63521B54F78A5B8 /* Pods-GameDetail-umbrella.h */,
+				B0E184EEA35537D49CC748F75100BF19 /* Pods-GameDetail.debug.xcconfig */,
+				C8DE4E3790D7A5BA3A08B1F8C64E6F0B /* Pods-GameDetail.release.xcconfig */,
+			);
+			name = "Pods-GameDetail";
+			path = "Target Support Files/Pods-GameDetail";
+			sourceTree = "<group>";
+		};
+		CA346664F9DAE7EB6C5803BF8A61158A /* Pods-Common */ = {
+			isa = PBXGroup;
+			children = (
+				B1F0EDA7375DBEE5625B4358A6042E68 /* Pods-Common.modulemap */,
+				CA450C0CB0B50998D9FCE7B1FAAE5FF0 /* Pods-Common-acknowledgements.markdown */,
+				400734D3C3336AC747CCB8C3697B683F /* Pods-Common-acknowledgements.plist */,
+				073CFB8C9BB1C595D1A9D40EA4B43824 /* Pods-Common-dummy.m */,
+				80FCEA1647A8AC92DACDF9E10E53E588 /* Pods-Common-Info.plist */,
+				F2DF9DA983C47B5391E60306C91CED19 /* Pods-Common-umbrella.h */,
+				5111381D633C09D636030372800359D3 /* Pods-Common.debug.xcconfig */,
+				379E74A6616780DF6E0F895F8278A0B6 /* Pods-Common.release.xcconfig */,
+			);
+			name = "Pods-Common";
+			path = "Target Support Files/Pods-Common";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -175,8 +229,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C0E36C20B443BC0F1360C865BBC88F47 /* Products */,
-				8005DB8C26C0552F6B3CFACC844A3FA3 /* Targets Support Files */,
+				9DBF09A7E3804D4E6BCF6B0CC1D4AEF3 /* Products */,
+				A2D0ED4D42D3CCC031F5962E3AEB71C1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,36 +242,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E80C04ACC2D53041197D809FF1561219 /* Pods-Common */ = {
+		FD2B8DBA3112446B7E85FA10F3E6FD6E /* Pods-Submission Aplikasi Bentuk Katalog */ = {
 			isa = PBXGroup;
 			children = (
-				08AA37E3595B49853D76ADAD0E1CAB50 /* Pods-Common.modulemap */,
-				3A43C6D13283353F1BDB30DEC9029FC2 /* Pods-Common-acknowledgements.markdown */,
-				1EB10E3F2F68326854DED462BD6D1862 /* Pods-Common-acknowledgements.plist */,
-				C5BE1C8590FF1C84738A6DE03995E2A7 /* Pods-Common-dummy.m */,
-				8A56F271D8042BD9F0023443D37D35D9 /* Pods-Common-Info.plist */,
-				494C029C2EEC7FF23757BA29DF319754 /* Pods-Common-umbrella.h */,
-				C5B96E68F83040CA06470FEFAD973862 /* Pods-Common.debug.xcconfig */,
-				CBB097690885F67B7ADEB297059B61BB /* Pods-Common.release.xcconfig */,
+				86E5F166A88605037A0CECD76A5BF832 /* Pods-Submission Aplikasi Bentuk Katalog.modulemap */,
+				31212F51881750B6D25D8CD789C61F1D /* Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.markdown */,
+				833B153C3B788D8E5AFEBC884C96290B /* Pods-Submission Aplikasi Bentuk Katalog-acknowledgements.plist */,
+				4B3EF019C7475545C3899BBBE98199B1 /* Pods-Submission Aplikasi Bentuk Katalog-dummy.m */,
+				9C02A0A4DF0BC3913CF1EE1CC3D2DBBF /* Pods-Submission Aplikasi Bentuk Katalog-Info.plist */,
+				A5B884064EBC22909A2A13A8C53D2628 /* Pods-Submission Aplikasi Bentuk Katalog-umbrella.h */,
+				B1AC377FBF59436F675DCFB3B409F3EC /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */,
+				48ADE92724CCACC67EC2C7AFC141A785 /* Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig */,
 			);
-			name = "Pods-Common";
-			path = "Target Support Files/Pods-Common";
-			sourceTree = "<group>";
-		};
-		F190275DC8DBE02AF0FBB08EE0E1F6E4 /* Pods-Submission Aplikasi Bentuk KatalogvTests */ = {
-			isa = PBXGroup;
-			children = (
-				220AC3548ECF7BB10E6BCAA5D575588E /* Pods-Submission Aplikasi Bentuk KatalogvTests.modulemap */,
-				515471210CFAE740CB63FC822F14E728 /* Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.markdown */,
-				DFE1CEC802302F61F5EEE0ABF64499B5 /* Pods-Submission Aplikasi Bentuk KatalogvTests-acknowledgements.plist */,
-				B82D524150A0E9DDA34489EE9C96E7E4 /* Pods-Submission Aplikasi Bentuk KatalogvTests-dummy.m */,
-				23FDD62C6B535114D269B7E6409C1CDC /* Pods-Submission Aplikasi Bentuk KatalogvTests-Info.plist */,
-				942662A7046EB733FE2B6CBEF4AEB6B8 /* Pods-Submission Aplikasi Bentuk KatalogvTests-umbrella.h */,
-				4EA5D00619102A5F33D158894AE6AC1D /* Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig */,
-				C8D236429678BC1E253DC6585A18C484 /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */,
-			);
-			name = "Pods-Submission Aplikasi Bentuk KatalogvTests";
-			path = "Target Support Files/Pods-Submission Aplikasi Bentuk KatalogvTests";
+			name = "Pods-Submission Aplikasi Bentuk Katalog";
+			path = "Target Support Files/Pods-Submission Aplikasi Bentuk Katalog";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +274,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2702D43BA7AEF819AB89DB30BB12B029 /* Pods-Submission Aplikasi Bentuk Katalog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498418797C7D0D2E245E00ACF7F7FAD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB8D90C4BED8168DC7BC7C95B3A00E9 /* Pods-GameDetail-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +316,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				023EF3699077F572179A7D1A312138BA /* PBXTargetDependency */,
+				1176B5926DBCA0A3B7BC5E07DE68C03A /* PBXTargetDependency */,
 			);
 			name = "Pods-Submission Aplikasi Bentuk KatalogvTests";
 			productName = Pods_Submission_Aplikasi_Bentuk_KatalogvTests;
 			productReference = 5205DF44ABFC47BF06F77B0AA332917D /* Pods-Submission Aplikasi Bentuk KatalogvTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D78F28E6C041829671CB409DED251A3 /* Pods-GameDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4790AD42FCCF637A7F03AE2668F2FEB /* Build configuration list for PBXNativeTarget "Pods-GameDetail" */;
+			buildPhases = (
+				498418797C7D0D2E245E00ACF7F7FAD3 /* Headers */,
+				6E4A0A737C40DE9BA60D2AE789417D5F /* Sources */,
+				75B7BEA48AF85D1B85CAB6EAAC369717 /* Frameworks */,
+				C6DB108006F3BD1B12FFD07F716BCFB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GameDetail";
+			productName = Pods_GameDetail;
+			productReference = 59FFAE950E1877861E7022449B8935F7 /* Pods-GameDetail */;
 			productType = "com.apple.product-type.framework";
 		};
 		4564724F43097631F11EBAA64488E66A /* Pods-GameWishlist */ = {
@@ -349,11 +413,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C0E36C20B443BC0F1360C865BBC88F47 /* Products */;
+			productRefGroup = 9DBF09A7E3804D4E6BCF6B0CC1D4AEF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DD7DFA994AEB239315477135259D90B6 /* Pods-Common */,
+				1D78F28E6C041829671CB409DED251A3 /* Pods-GameDetail */,
 				4564724F43097631F11EBAA64488E66A /* Pods-GameWishlist */,
 				4908125C2B2560C29FFD92338F0B9E47 /* Pods-Submission Aplikasi Bentuk Katalog */,
 				13F88D34C819757C9184DFF225B2E106 /* Pods-Submission Aplikasi Bentuk KatalogvTests */,
@@ -390,6 +455,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C6DB108006F3BD1B12FFD07F716BCFB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -406,6 +478,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B086519A9DD5EB1F0E31C91BC3A3B40D /* Pods-GameWishlist-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4A0A737C40DE9BA60D2AE789417D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F0ACD8DD9162C71CE40D7973206627 /* Pods-GameDetail-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,18 +508,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		023EF3699077F572179A7D1A312138BA /* PBXTargetDependency */ = {
+		1176B5926DBCA0A3B7BC5E07DE68C03A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Submission Aplikasi Bentuk Katalog";
 			target = 4908125C2B2560C29FFD92338F0B9E47 /* Pods-Submission Aplikasi Bentuk Katalog */;
-			targetProxy = 46E03EAC2A6F2ED66C2FB5B633A125D7 /* PBXContainerItemProxy */;
+			targetProxy = 26F4BD255DF1284DC0D574D791ABA20F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		05C0E748F51877726125B7C4CDA1BD2F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8D236429678BC1E253DC6585A18C484 /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */;
+			baseConfigurationReference = 2053A41219B8B6CC16580FFA6A2FF50B /* Pods-Submission Aplikasi Bentuk KatalogvTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -475,9 +555,46 @@
 			};
 			name = Release;
 		};
+		1383844F1A837E98C662E5BE3BC8D7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0E184EEA35537D49CC748F75100BF19 /* Pods-GameDetail.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GameDetail/Pods-GameDetail-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameDetail/Pods-GameDetail.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		230532A4035AF3C49D8F9FC9CFAB531C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D4433AE65998F24DCBD86BB79553AC1 /* Pods-GameWishlist.release.xcconfig */;
+			baseConfigurationReference = FE69B586972C70E18CD32826388FE8F9 /* Pods-GameWishlist.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -577,7 +694,7 @@
 		};
 		3586A8F6365D30FC593844292FAE9D86 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEFF73C8D14C5B3D8CA785C73F23D108 /* Pods-GameWishlist.debug.xcconfig */;
+			baseConfigurationReference = 51AAEF58946FBC35D5EC0BE2CE98D079 /* Pods-GameWishlist.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -614,7 +731,7 @@
 		};
 		70E8CFBFB34391D8A95A91A7D918FD03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EA5D00619102A5F33D158894AE6AC1D /* Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig */;
+			baseConfigurationReference = 861438D06B36EC64B0CFCCD0287AB247 /* Pods-Submission Aplikasi Bentuk KatalogvTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -651,7 +768,7 @@
 		};
 		C456D58FA4B72F3722BC54B90F03A937 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBB097690885F67B7ADEB297059B61BB /* Pods-Common.release.xcconfig */;
+			baseConfigurationReference = 379E74A6616780DF6E0F895F8278A0B6 /* Pods-Common.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -689,7 +806,7 @@
 		};
 		C7564B067DC37E71BBDDAEA75AF56B37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D67534954A05D10C7ABBA19C819DF7E /* Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig */;
+			baseConfigurationReference = 48ADE92724CCACC67EC2C7AFC141A785 /* Pods-Submission Aplikasi Bentuk Katalog.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -725,9 +842,47 @@
 			};
 			name = Release;
 		};
+		D133E2D5D59924488A69B6316E686723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DE4E3790D7A5BA3A08B1F8C64E6F0B /* Pods-GameDetail.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GameDetail/Pods-GameDetail-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GameDetail/Pods-GameDetail.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E1CD6C2D8EE877EE40310DB5F667FA1C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5B96E68F83040CA06470FEFAD973862 /* Pods-Common.debug.xcconfig */;
+			baseConfigurationReference = 5111381D633C09D636030372800359D3 /* Pods-Common.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -830,7 +985,7 @@
 		};
 		FD16BEAE4A6E4516A5AACE8B82350CDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8218A64A28BA6EA5E573D097576B88CD /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */;
+			baseConfigurationReference = B1AC377FBF59436F675DCFB3B409F3EC /* Pods-Submission Aplikasi Bentuk Katalog.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -900,6 +1055,15 @@
 			buildConfigurations = (
 				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
 				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4790AD42FCCF637A7F03AE2668F2FEB /* Build configuration list for PBXNativeTarget "Pods-GameDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1383844F1A837E98C662E5BE3BC8D7F5 /* Debug */,
+				D133E2D5D59924488A69B6316E686723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

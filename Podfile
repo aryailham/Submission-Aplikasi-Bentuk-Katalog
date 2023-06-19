@@ -18,3 +18,7 @@ end
 target 'Common' do
   project '../Common/Common'
 end
+
+target 'GameDetail' do
+  project '../GameDetail/GameDetail'
+end
