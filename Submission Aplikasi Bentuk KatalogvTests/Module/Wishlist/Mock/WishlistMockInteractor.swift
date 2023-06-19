@@ -7,7 +7,8 @@
 
 import Foundation
 import RxSwift
-@testable import Submission_Aplikasi_Bentuk_Katalog
+@testable import GameWishlist
+@testable import Common
 
 class WishlistEmptyMockInteractor: WishlistUseCase {
     func getWishlistedGames() -> Observable<[GameModel]> {

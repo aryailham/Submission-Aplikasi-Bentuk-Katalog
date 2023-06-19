@@ -7,7 +7,8 @@
 
 import Foundation
 import RxSwift
-@testable import Submission_Aplikasi_Bentuk_Katalog
+@testable import GameDetail
+@testable import Common
 
 enum GameDetailMockError: Error {
     case failedToAccessDataSource
